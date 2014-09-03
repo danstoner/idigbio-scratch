@@ -1,4 +1,4 @@
 idigbio-samples
 ===============
 
-Sample code and Playground for integrating with iDigBio API
+Sample Code and Playground and Scratch Place for various iDigBio work.
