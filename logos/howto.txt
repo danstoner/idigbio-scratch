@@ -1,0 +1,20 @@
+How to generate a montage of logos from iDigBio providers using ImageMagick
+
+# get the list of all recordsets
+$ curl -s -L http://api.idigbio.org/v1/recordsets | json_pp | egrep "\"recordset\"" | cut -d"\"" -f4 > list_of_recordsets.txt
+
+# extract the logo image url from each recordset API record
+$ for recordset in `cat list_of_recordsets.txt`; do curl -s $recordset | json_pp | grep "logo_url" | cut -d"\"" -f4 >> image_urls.txt ; done
+
+# get all of the logos
+$ for logo in `cat image_urls.txt`; do wget --content-disposition $logo ; done
+
+# Do manual inspection, filing into subfolders, removing of dupes.
+# cd to the dir with large logos
+$ montage * -geometry 70x70\>+2+2  a_logos.png
+
+# cd to the dir with small logos
+$ montage * -tile 10 -geometry 60x60\>+2+2  a_small_logos.png
+
+# add "... and many more." text to the PNG in Gimp
+
