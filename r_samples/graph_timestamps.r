@@ -4,7 +4,7 @@
 
 # 
 png(filename="output_uploads_per_day.png",width=800)
-uploads <- read.csv('uploads20140902.csv', header=FALSE)
+uploads <- read.csv('uploads20140917.csv', header=FALSE)
 
 # change margins
 par(mai=c(.75,.1,.5,.5))
