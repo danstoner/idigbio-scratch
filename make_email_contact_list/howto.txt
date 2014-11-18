@@ -1,0 +1,11 @@
+How to generate a list of email contacts for iDigBio recordset providers
+
+# get the list of all recordsets
+$ curl -s -L http://api.idigbio.org/v1/recordsets | json_pp | egrep "\"recordset\"" | cut -d"\"" -f4 > list_of_recordsets.txt
+
+# extract the institution name and email addresses from each recordset API record
+$ for recordset in `cat list_of_recordsets.txt`; do curl -s $recordset | json_pp | egrep "collection_name|institution_web_address|email" >> junky_list.txt ; done
+
+
+# should do this via python intead
+

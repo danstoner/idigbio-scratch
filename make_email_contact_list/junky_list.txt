@@ -1,0 +1,1733 @@
+            "email" : "egbot@asu.edu"
+            "email" : "afranck@mail.usf.edu"
+      "collection_name" : "University of South Florida Herbarium",
+      "institution_web_address" : "http://florida.plantatlas.usf.edu",
+            "email" : "egbot@asu.edu"
+            "email" : "bthiers@nybg.org"
+      "institution_web_address" : "http://sciweb.nybg.org/science2/SteereHerbarium.asp",
+      "collection_name" : "New York Botanical Garden",
+      "collection_name" : "MSB Bird Collection (Arctos)",
+      "institution_web_address" : "http://msb.unm.edu/birds",
+            "email" : "cwitt@unm.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "ajohnson@unm.edu",
+      "institution_web_address" : "http://www.emporia.edu/smnh/",
+            "email" : "wjensen1@emporia.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "Schmidt Museum of Natural History_Birds",
+      "institution_web_address" : "",
+      "collection_name" : "Vertebrate Paleontology Division, Yale Peabody Museum",
+            "email" : "lawrence.gall@yale.edu",
+      "institution_web_address" : "http://ucjeps.berkeley.edu/",
+      "collection_name" : "University of California Berkeley",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "andrewdoran@berkeley.edu"
+            "email" : "rogerss@carnegiemnh.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "institution_web_address" : "http://www.carnegiemnh.org/herps/index.html",
+      "collection_name" : "CM Herps Collection",
+      "collection_name" : "University of Tennessee Fungal Herbarium",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "khughes@utk.edu"
+      "institution_web_address" : "http://tenn.bio.utk.edu/fungus/fungus.shtml",
+            "email" : "fryday@msu.edu",
+            "email" : "alan@msu.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "billy@plantbiology.msu.edu"
+      "institution_web_address" : "http://www.herbarium.msu.edu/collections.html",
+      "collection_name" : "Michigan State University Herbarium Vascular Plants",
+            "email" : "jalopez2@alaska.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+      "collection_name" : "UAM Herpetology Collection (Arctos)",
+      "institution_web_address" : "",
+      "collection_name" : "Boise State University Lichen Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "roger.rosentreter0@gmail.com",
+      "institution_web_address" : "http://biology.boisestate.edu/snake-river-plains/"
+      "collection_name" : "Tall Timbers Research Station and Land Conservancy",
+      "institution_web_address" : "http://www.talltimbers.org/museum.html",
+            "email" : "gnelson@bio.fsu.edu"
+            "email" : "krobertson@ttrs.org",
+            "email" : "cookjose@unm.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "jldunnum@unm.edu",
+      "collection_name" : "MSB Mammal Collection (Arctos)",
+      "institution_web_address" : "http://www.msb.unm.edu/mammals",
+      "collection_name" : "Connecticut Botanical Society",
+            "email" : "patrick.sweeney@yale.edu"
+            "email" : "patrick.sweeney@yale.edu"
+      "institution_web_address" : "http://www.ct-botanical-society.org/",
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/mammalogy.htm",
+      "collection_name" : "Mammals Specimens",
+            "email" : "jkbraun@ou.edu",
+            "email" : "pking@ou.edu",
+            "email" : "vividhvijay007@ou.edu"
+            "email" : "bcoyner@ou.edu",
+      "institution_web_address" : "http://www.wnmu.edu/academic/nspages/gilacenter.shtml",
+            "email" : "jenningsr@wnmu.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu"
+      "collection_name" : "WNMU Fish Collection (Arctos)",
+      "collection_name" : "CCBER Mammalogy Collection",
+      "institution_web_address" : "http://ccber.ucsb.edu/collections/zoological/mammology",
+            "email" : "beas-moix@ccber.ucsb.edu"
+            "email" : "hannah@ccber.ucsb.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+      "collection_name" : "Consortium of California Herbaria",
+            "email" : "rlmoe@berkeley.edu",
+            "email" : "joyceg@berkeley.edu"
+            "email" : "dbaxter@berkeley.edu",
+            "email" : "smarkos@berkeley.edu",
+            "email" : "nancy.morin@nau.edu"
+            "email" : "bmishler@berkeley.edu"
+      "institution_web_address" : "http://ucjeps.berkeley.edu/consortium/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "lalita.calabria@gmail.com"
+      "institution_web_address" : "http://www.evergreen.edu/",
+      "collection_name" : "Evergreen Natural History Museum",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "mary@biology.usu.edu"
+      "institution_web_address" : "http://herbarium.usu.edu/default.htm",
+      "collection_name" : "Intermountain Herbarium (Utah State University)",
+            "email" : "stigall@ohio.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "al211513@ohio.edu",
+      "collection_name" : "Ohio University Invertebrate Paleontology Collection",
+      "institution_web_address" : "",
+      "collection_name" : "University of North Alabama",
+      "institution_web_address" : null,
+            "email" : "egbot@asu.edu"
+            "email" : "pgdavison@una.edu",
+      "collection_name" : "Field Museum of Natural History",
+            "email" : "egbot@asu.edu"
+            "email" : "mvonkonrat@fieldmuseum.org"
+      "institution_web_address" : "http://www.fieldmuseum.org/research_collections/botany/default.htm",
+      "institution_web_address" : "http://herbarium.lsa.umich.edu/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "tyjames@umich.edu",
+      "collection_name" : "University of Michigan Herbarium",
+            "email" : "john.demboski@dmns.org"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "jeff.stephenson@dmns.org"
+      "institution_web_address" : "http://www.dmns.org/science/collections/dmns-zoology-collections",
+      "collection_name" : "DMNS Mammal Collection (Arctos)"
+      "collection_name" : "KUBI Ichthyology Tissue Collection",
+            "email" : "abentley@ku.edu"
+            "email" : "larussell@ku.edu",
+      "institution_web_address" : "http://collections.nhm.ku.edu/Tissuesearch/"
+      "institution_web_address" : "http://herbaria.umaine.edu/",
+      "collection_name" : "University of Maine Herbaria",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "campbell@maine.edu"
+      "institution_web_address" : "http://www.fieldmuseum.org/research_collections/botany/default.htm",
+      "collection_name" : "Field Museum of Natural History",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "rlucking@fieldmuseum.org",
+      "collection_name" : "Invertebrate Paleontology Division, Yale Peabody Museum",
+            "email" : "lawrence.gall@yale.edu"
+      "institution_web_address" : ""
+      "collection_name" : "CAS Mammalogy (MAM)",
+      "institution_web_address" : "",
+            "email" : "sblum@calacademy.org",
+            "email" : "jfong@calacademy.org",
+            "email" : "mflannery@calacademy.org"
+      "collection_name" : "Botany Division, Yale Peabody Museum",
+      "institution_web_address" : "",
+            "email" : "lawrence.gall@yale.edu",
+      "collection_name" : "Robert W. Freckmann Herbarium at the University of Wisconsin, Stevens Point",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "Mary.Bartkowiak@uwsp.edu"
+      "institution_web_address" : "http://wisplants.uwsp.edu/index.html",
+      "institution_web_address" : "http://ag.arizona.edu/mycoherb/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "arnold@ag.arizona.edu"
+      "collection_name" : "Gilbertson Mycological Herbarium (University of Arizona)"
+      "institution_web_address" : "http://museum.utep.edu",
+      "collection_name" : "UTEP Vertebrates",
+            "email" : "scutler@utep.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "aharris@utep.edu",
+            "email" : "clieb@utep.edu",
+            "email" : "rgwebb@utep.edu"
+      "institution_web_address" : "http://www.santabarbarabotanicgarden.org/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "tucker@lifesci.ucsb.edu",
+      "collection_name" : "Santa Barbara Botanic Garden Lichen Herbarium",
+      "institution_web_address" : "http://herbarium.msu.edu/",
+            "email" : "egbot@asu.edu"
+            "email" : "alan@msu.edu"
+      "collection_name" : "Michigan State University"
+      "collection_name" : "CCBER Ornithology Collection",
+      "institution_web_address" : "http://ccber.ucsb.edu/collections/ornithology",
+            "email" : "beas-moix@ccber.ucsb.edu",
+            "email" : "hannah@ccber.ucsb.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "egbot@asu.edu"
+            "email" : "herbarium@ag.arizona.edu",
+      "collection_name" : "The University of Arizona Herbarium",
+      "institution_web_address" : "http://ag.arizona.edu/herbarium/",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "Boris.Kondratieff@Colostate.edu"
+      "institution_web_address" : "http://www.bspm.colostate.edu/gillette%20museum/museum/home.html",
+      "collection_name" : "National Park Collections at Colorado State University",
+      "institution_web_address" : "http://mvz.berkeley.edu/Bird_Collection.html",
+            "email" : "ccicero@berkeley.edu"
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "bowie@berkeley.edu",
+      "collection_name" : "MVZ Bird Collection (Arctos)"
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "alan@msu.edu",
+      "institution_web_address" : "http://herbarium.msu.edu/",
+      "collection_name" : "Michigan State University",
+            "email" : "ben.norton@naturalsciences.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "gabriela.hogue@naturalsciences.org",
+      "institution_web_address" : "http://collections.naturalsciences.org/searchFishes.aspx",
+      "collection_name" : "NCSM Fishes Collection",
+            "email" : "griccardi@fsu.edu",
+            "email" : "dpaul@fsu.edu",
+      "collection_name" : "Morphbank Small Datasets",
+      "institution_web_address" : ""
+      "collection_name" : "NCSM Herpetology Collection",
+            "email" : "ben.norton@naturalsciences.org"
+            "email" : "bryan.stuart@naturalsciences.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu"
+      "institution_web_address" : "http://www.collections.naturalsciences.org/searchHerp.aspx",
+      "collection_name" : "University of California - Berkeley",
+      "institution_web_address" : "http://ucjeps.berkeley.edu/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "margriet@berkeley.edu",
+      "institution_web_address" : "http://collections.naturalsciences.org/searchInvertPaleo.aspx",
+      "collection_name" : "NCSM Invertebrate Paleontology Collection",
+            "email" : "ben.norton@naturalsciences.org"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "trish.weaver@naturalsciences.org",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "afranck@mail.usf.edu"
+      "institution_web_address" : "http://florida.plantatlas.usf.edu",
+      "collection_name" : "University of South Florida Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "janets@cisunix.unh.edu",
+      "collection_name" : "University of New Hampshire",
+      "institution_web_address" : "http://www.unh.edu/herbarium/",
+      "collection_name" : "KUBI Vertebrate Paleontology Collection",
+      "institution_web_address" : "http://vertebratepaleontology.biodiversity.ku.edu/collections",
+            "email" : "dmiao@ku.edu",
+            "email" : "chris.beard@ku.edu",
+            "email" : "dinosaur@ku.edu",
+            "email" : "larussell@ku.edu",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "fungi@duke.edu"
+      "institution_web_address" : "http://herbarium.duke.edu/collections/fungi",
+      "collection_name" : "Duke University Herbarium Fungal Collection",
+      "collection_name" : "University of Florida Herbarium",
+      "institution_web_address" : "http://www.flmnh.ufl.edu/herbarium/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "trufflesmith@ufl.edu"
+      "institution_web_address" : "http://research.calacademy.org/botany/collections",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "dtrock@calacademy.org",
+      "collection_name" : "California Academy of Sciences"
+      "institution_web_address" : null,
+            "email" : "Mary.Barkworth@usu.edu"
+            "email" : "shana.geffeney@usu.edu"
+      "collection_name" : "Utah State University Uintah Basin",
+      "institution_web_address" : "http://herbarium.usu.edu/default.htm",
+      "collection_name" : "Intermountain Herbarium (Utah State University)",
+            "email" : "Mary.Barkworth@usu.edu"
+            "email" : "mary.barkworth@usu.edu"
+            "email" : "mycoportal.contact@gmail.com",
+            "email" : "mccauley_r@fortlewis.edu"
+      "collection_name" : "Fort Lewis College Herbarium",
+      "institution_web_address" : "http://faculty.fortlewis.edu/mccauley_r/Herbarium/",
+            "email" : "paulay@flmnh.ufl.edu"
+            "email" : "netadmin@flmnh.ufl.edu",
+      "collection_name" : "Image Appliance Recordset for FLMNH Invertebrate Zoology",
+      "institution_web_address" : ""
+      "institution_web_address" : "",
+            "email" : "sblum@calacademy.org",
+            "email" : "jfong@calacademy.org",
+            "email" : "dtrock@calacademy.org",
+      "collection_name" : "CAS Botany (BOT)",
+            "email" : "",
+            "email" : "bdim@oeb.harvard.edu",
+            "email" : "mole@oeb.harvard.edu",
+            "email" : "lford@oeb.harvard.edu",
+            "email" : "bhaley@oeb.harvard.edu",
+      "collection_name" : "Museum of Comparative Zoology, Harvard University",
+      "institution_web_address" : "http://mczbase.mcz.harvard.edu/",
+      "institution_web_address" : "http://130.238.83.220:81/home.php",
+      "collection_name" : "Uppsala University Exsiccati",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "stefan.ekman@em.uu.se"
+            "email" : "mtulig@nybg.org",
+            "email" : "kwatson@nybg.org",
+      "institution_web_address" : "",
+      "collection_name" : "Image Appliance Recordset for NYBG TTD",
+      "institution_web_address" : "http://sciweb.nybg.org/science2/SteereHerbarium.asp",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "bthiers@nybg.org",
+      "collection_name" : "New York Botanical Garden"
+            "email" : "abraczi1@msu.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "gottfrie@msu.edu"
+      "collection_name" : "MSUM Ichthyology and Herpetology Collections",
+      "institution_web_address" : "http://museum.msu.edu/?q=natural"
+      "collection_name" : "Valdosta State University",
+      "institution_web_address" : "http://www.valdosta.edu/~rcarter/herbintro.htm",
+            "email" : "egbot@asu.edu"
+            "email" : "rcarter@valdosta.edu",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "cfs.myko@gmail.com"
+      "collection_name" : "University of California Santa Cruz Fungal Herbarium",
+      "institution_web_address" : null
+            "email" : "rfeeney@nhm.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "kgarrett@nhm.org",
+            "email" : "jdines@nhm.org",
+            "email" : "ncamacho@nhm.org",
+      "collection_name" : "LACM Vertebrate Collection",
+      "institution_web_address" : "http://www.nhm.org/"
+      "collection_name" : "UMMZ Mammal Collection",
+            "email" : "cwthomp@umich.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "jtorg@umich.edu",
+            "email" : "ptuck@umich.edu"
+      "institution_web_address" : ""
+      "institution_web_address" : "http://botanik.snm.ku.dk/english/Samlinger/Herbarier/dokument6/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "snm@snm.ku.dk",
+      "collection_name" : "Natural History Museum of Denmark: The Herbarium of Lichens"
+            "email" : "egbot@asu.edu",
+            "email" : "mbthomas@hawaii.edu",
+      "collection_name" : "Joseph F. Rock Herbarium - University of Hawaii",
+      "institution_web_address" : "http://www.herbarium.hawaii.edu/"
+      "collection_name" : "Indiana University Herbarium",
+      "institution_web_address" : "http://www.bio.indiana.edu/faculty/facilities/herbarium.shtml",
+            "email" : "egbot@asu.edu"
+            "email" : "eknox@indiana.edu",
+      "collection_name" : "Recent Invertebrates Specimens",
+      "institution_web_address" : "http://www.snomnh.ou.edu/db2/recentinverts/index.php",
+            "email" : "kmenard@ou.edu"
+            "email" : "pking@ou.edu",
+            "email" : "jkbraun@ou.edu",
+      "collection_name" : "Chrysler Herbarium of Rutgers University",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "jwhite@aesop.rutgers.edu",
+      "institution_web_address" : "http://herbarium.rutgers.edu/",
+            "email" : "psdruckenmiller@alaska.edu"
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "jirousseau@alaska.edu",
+      "institution_web_address" : "http://www.uaf.edu/museum/collections/earth/",
+      "collection_name" : "UAM Earth Sciences Collection (Arctos)",
+            "email" : "egbot@asu.edu"
+            "email" : "jrohrer@uwec.edu",
+      "collection_name" : "University of Wisconsin - Eau Claire",
+      "institution_web_address" : "http://www.uwec.edu/Biology/about/facilities.htm",
+      "institution_web_address" : "http://collections.naturalsciences.org/searchMammals.aspx",
+            "email" : "ben.norton@naturalsciences.org",
+            "email" : "lisa.gatens@naturalsciences.org",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "benjamin.hess@naturalsciences.org",
+      "collection_name" : "NCSM Mammals Collection",
+      "collection_name" : "Vertebrate Zoology Division - Ichthyology, Yale Peabody Museum",
+            "email" : "lawrence.gall@yale.edu",
+      "institution_web_address" : "",
+      "institution_web_address" : "",
+      "collection_name" : "CRCM Vertebrate Collection",
+            "email" : "connermuseum@wsu.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+      "institution_web_address" : "http://uwf.edu/cedb/Herbarium.cfm",
+            "email" : "egbot@asu.edu"
+            "email" : "tstreete@uwf.edu",
+      "collection_name" : "Michael I. Cousens Herbarium, University of West Florida",
+      "collection_name" : "University of Arizona Insect Collection",
+      "institution_web_address" : "http://ag.arizona.edu/ento/UAIC/",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "wmoore@email.arizona.edu",
+      "institution_web_address" : "http://www.herbarium.unc.edu/",
+            "email" : "egbot@asu.edu"
+            "email" : "mccormick@unc.edu"
+      "collection_name" : "University of North Carolina Herbarium",
+      "collection_name" : "Oregon State University Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "listona@science.oregonstate.edu",
+      "institution_web_address" : "http://oregonstate.edu/dept/botany/herbarium/"
+            "email" : "kevin.winker@alaska.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "jjwithrow@alaska.edu",
+      "institution_web_address" : "http://www.universityofalaskamuseumbirds.org",
+      "collection_name" : "UAM Bird Collection (Arctos)",
+      "collection_name" : "UMMZ Herpetology Collection",
+            "email" : "ardr@umich.edu",
+            "email" : "ges@umich.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "nuss@umich.edu",
+            "email" : "drabosky@umich.edu",
+            "email" : "jtorg@umich.edu",
+      "institution_web_address" : "http://www.lsa.umich.edu/ummz/herps/default.asp",
+      "collection_name" : "University of California - Berkeley",
+            "email" : "egbot@asu.edu"
+            "email" : "andrewdoran@berkeley.edu",
+      "institution_web_address" : "http://ucjeps.berkeley.edu/",
+      "institution_web_address" : "http://invertnet.org/",
+            "email" : "omarsobh@illinois.edu",
+            "email" : "godfoder@acis.ufl.edu",
+      "collection_name" : "Invertnet Images Dataset",
+            "email" : "jalopez2@alaska.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+      "institution_web_address" : "",
+      "collection_name" : "UAM Invertebrate Collection (Arctos)"
+            "email" : "griccardi@fsu.edu",
+            "email" : "dpaul@fsu.edu",
+            "email" : "hansecj@auburn.edu",
+      "collection_name" : "Auburn Herbarium Specimens from Morphbank",
+      "institution_web_address" : "",
+      "institution_web_address" : "http://oregonstate.edu/dept/botany/herbarium/",
+      "collection_name" : "Oregon State University Herbarium",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "spatafoj@science.oregonstate.edu",
+      "collection_name" : "NCSM Invertebrates Collection",
+      "institution_web_address" : "http://collections.naturalsciences.org/searchMollusks.aspx",
+            "email" : "ben.norton@naturalsciences.org",
+            "email" : "arthur.bogan@naturalsciences.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "jamie.smith@naturalsciences.org",
+      "institution_web_address" : "http://tetrapods.osu.edu",
+      "collection_name" : "Ohio State University Tetrapod Division - Bird Collection (OSUM)",
+            "email" : "nelson.794@osu.edu"
+            "email" : "cora.1@osu.edu",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "davem@umn.edu"
+      "collection_name" : "University of Minnesota Lichen Herbarium",
+      "institution_web_address" : "http://www.bellmuseum.umn.edu/ResearchandTeaching/Collections/ScientificCollection/FungalHerbarium/index.htm",
+      "institution_web_address" : "http://herbarium.lsa.umich.edu/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "mfoltz@umich.edu",
+      "collection_name" : "University of Michigan Herbarium",
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/ornithology.htm",
+            "email" : "tyuri@ou.edu",
+            "email" : "pking@ou.edu",
+            "email" : "jkbraun@ou.edu",
+      "collection_name" : "Birds Specimens",
+      "institution_web_address" : "http://lifesciences.asu.edu/herbarium/",
+      "collection_name" : "Arizona State University Vascular Plant Herbarium",
+            "email" : "seinetadmin@asu.edu"
+            "email" : "wfertig@asu.edu"
+      "institution_web_address" : "http://www.herbarium.lsu.edu/",
+      "collection_name" : "Louisiana State University",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "jkluse@lsu.edu",
+      "collection_name" : "Boise State University Lichen Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "roger.rosentreter0@gmail.com",
+      "institution_web_address" : "http://biology.boisestate.edu/snake-river-plains/",
+      "institution_web_address" : "http://www.msb.unm.edu/parasites",
+      "collection_name" : "MSB Parasite Collection (Arctos)",
+            "email" : "sbrant@unm.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "esloker@unm.edu"
+            "email" : "campbell@carachupa.org",
+            "email" : "gordon.jarrellj@gmail.com",
+      "institution_web_address" : "http://www.nsrl.ttu.edu/collections/Mammals/index.htm",
+            "email" : "heath.garner@ttu.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "robert.baker@ttu.edu"
+            "email" : "robert.bradley@ttu.edu",
+      "collection_name" : "TTU Mammals Collection",
+      "collection_name" : "Robinson-Winter Museum of Natural History (RWMNH) Tardigrade Collection",
+            "email" : "carl_johansson@fresnocitycollege.edu",
+      "institution_web_address" : "http://tegrity.fresnocitycollege.edu/johansson/"
+      "institution_web_address" : null,
+            "email" : "mary.barkworth@usu.edu"
+            "email" : "e-ribbens@wiu.edu"
+      "collection_name" : "R.M. Myers Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "nsnow@pittstate.edu"
+      "institution_web_address" : null,
+      "collection_name" : "Pittsburg State University",
+            "email" : "ben.norton@naturalsciences.org"
+            "email" : "john.gerwin@naturalsciences.org"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "brian.oshea@naturalsciences.org",
+      "collection_name" : "NCSM Birds Collection",
+      "institution_web_address" : "http://collections.naturalsciences.org/searchBirds.aspx",
+            "email" : "egbot@asu.edu"
+            "email" : "ledlie@ledlie.com"
+      "institution_web_address" : null,
+      "collection_name" : "Patricia Ledlie Herbarium"
+      "collection_name" : "Harry D. Thiers Herbarium (San Francisco State University)",
+      "institution_web_address" : "http://userwww.sfsu.edu/patters/herbarium/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "ded@sfsu.edu"
+      "institution_web_address" : "",
+            "email" : "td6@humboldt.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "HSU Wildlife Birds",
+      "collection_name" : "Duke University Herbarium",
+      "institution_web_address" : "http://herbarium.duke.edu",
+            "email" : "egbot@asu.edu"
+            "email" : "shaw@duke.edu"
+      "institution_web_address" : "",
+      "collection_name" : "mammals",
+            "email" : "dreed@flmnh.ufl.edu",
+            "email" : "netadmin@flmnh.ufl.edu"
+      "collection_name" : "Wesley E. Niles Herbarium, University of Nevada, Las Vegas",
+      "institution_web_address" : "http://www.unlv.edu/lifesciences/herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "kathryn.birgy@unlv.edu"
+      "collection_name" : "University of Central Florida Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "patrick.bohlen@ucf.edu"
+      "institution_web_address" : "http://arboretum.ucf.edu/programs/herbarium/",
+      "collection_name" : "Oregon State Ichthyology Collection",
+            "email" : "brian.sidlauskas@oregonstate.edu",
+      "institution_web_address" : "",
+      "institution_web_address" : "http://www.lsa.umich.edu/ummz/birds/",
+            "email" : "jhinshaw@umich.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "jtorg@umich.edu"
+      "collection_name" : "UMMZ Birds Collection",
+      "collection_name" : "Ada Hayden Herbarium at Iowa State University",
+      "institution_web_address" : "http://www.public.iastate.edu/~herbarium/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "dlewis@iastate.edu. "
+      "institution_web_address" : "http://www.rmh.uwyo.edu/",
+      "collection_name" : "University of Wyoming Rocky Mountain Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "rhartman@uwyo.edu",
+      "collection_name" : "Black Hills State University",
+            "email" : "mary.barkworth@usu.edu"
+            "email" : "Grace.Kostel@bhsu.edu",
+      "institution_web_address" : "http://herbarium.bhsu.edu",
+      "institution_web_address" : "http://uwf.edu/cedb/Herbarium.cfm",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "tstreete@uwf.edu",
+      "collection_name" : "Michael I. Cousens Herbarium, University of West Florida"
+            "email" : "john.friel@cornell.edu",
+      "collection_name" : "CUMV Fish Collection (Arctos)",
+      "institution_web_address" : "",
+      "institution_web_address" : "http://www.carnegiemnh.org/birds/index.html",
+            "email" : "rogerss@carnegiemnh.org"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+      "collection_name" : "CM Birds Collection"
+            "email" : "sblum@calacademy.org",
+            "email" : "jfong@calacademy.org",
+            "email" : "jvindum@calacademy.org",
+      "collection_name" : "CAS Herpetology (HERP)",
+      "institution_web_address" : "",
+      "collection_name" : "Benedictine College Herbarium",
+            "email" : "Mary.Barkworth@usu.edu"
+            "email" : "talmquist@benedictine.edu"
+      "institution_web_address" : null,
+            "email" : "nmccartn@uark.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "institution_web_address" : "",
+      "collection_name" : "UAFMC Fish",
+      "institution_web_address" : "http://entomology.biodiversity.ku.edu/collections",
+      "collection_name" : "Snow Entomological Museum Collection",
+            "email" : "jct@ku.edu",
+            "email" : "msengel@ku.edu",
+            "email" : "cschaboo@ku.edu",
+            "email" : "aezshort@ku.edu",
+            "email" : "larussell@ku.edu",
+            "email" : "ksem@ku.edu",
+            "email" : "nmccartn@uark.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+      "institution_web_address" : "",
+      "collection_name" : "UAFMC Herps",
+      "institution_web_address" : "http://www.botanicgardens.org/content/kathryn-kalmbach-herbarium",
+      "collection_name" : "Denver Botanic Gardens",
+            "email" : "Mary.Barkworth@usu.edu"
+            "email" : "melissa.islam@botanicgardens.org"
+      "institution_web_address" : "http://www.botany.wisc.edu/herbarium/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "kmcameron@wisc.edu",
+      "collection_name" : "University of Wisconsin - Madison"
+      "institution_web_address" : "http://www.burkemuseum.org/herpetology",
+            "email" : "leache@uw.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "sbirks@u.washington.edu",
+      "collection_name" : "UWBM Herpetology Collection (Arctos)"
+            "email" : "abentley@ku.edu"
+            "email" : "larussell@ku.edu",
+      "collection_name" : "KUBI Ichthyology Collection",
+      "institution_web_address" : "http://collections.nhm.ku.edu/FishWeb/",
+      "collection_name" : "Farlow Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "mole@morris.net",
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/farlow.html",
+      "collection_name" : "Denver Museum of Nature &amp; Science",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "Frank.Krell@dmns.org"
+      "institution_web_address" : "http://www.dmns.org/science/collections/dmns-zoology-collections/",
+      "institution_web_address" : "http://www.ucmp.berkeley.edu/science/vertebrate_coll.php",
+            "email" : "pholroyd@berkeley.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "UCMP Vertebrate Collection",
+      "collection_name" : "University of Wyoming Rocky Mountain Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "rhartman@uwyo.edu"
+      "institution_web_address" : "http://www.rmh.uwyo.edu/",
+      "institution_web_address" : "",
+      "collection_name" : "WFVZ Bird Collections",
+            "email" : "rene@wfvz.org",
+            "email" : "linnea@wfvz.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "Emporia State University Herbarium",
+            "email" : "jschulen@emporia.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "rthomas@emporia.edu",
+      "institution_web_address" : "",
+      "institution_web_address" : "",
+            "email" : "dgerhard@mail.nysed.gov",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "jbopp@mail.nysed.gov",
+      "collection_name" : "NYSM Mammals",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "james.cokendolpher@ttu.edu",
+      "collection_name" : "Texas Tech University - Invertebrate Zoology",
+      "institution_web_address" : "http://www.nsrl.ttu.edu/collections/Invertebrates/index.htm"
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/ornithology.htm",
+      "collection_name" : "Eggs Specimen",
+            "email" : "tyuri@ou.edu",
+            "email" : "pking@ou.edu",
+      "collection_name" : "Tri-Trophic Interactions Dataset",
+      "institution_web_address" : "http://tcn.amnh.org/",
+            "email" : "kseltmann@amnh.org",
+            "email" : "godfoder@acis.ufl.edu",
+      "institution_web_address" : "http://www.utexas.edu/tmm/tnhc/fish/index.html",
+      "collection_name" : "TNHC Ichthyology Collection",
+            "email" : "tnhc_fish_cm@austin.utexas.edu",
+            "email" : "mjcasarez@austin.utexas.edu"
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "deanhend@mail.utexas.edu"
+            "email" : "camsiler@ou.edu",
+            "email" : "pking@ou.edu",
+      "collection_name" : "Amphibian Specimens",
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/herpetology.htm"
+      "institution_web_address" : "http://www.botany.wisc.edu/herbarium/",
+      "collection_name" : "University of Wisconsin - Madison",
+            "email" : "egbot@asu.edu"
+            "email" : "kmcameron@wisc.edu"
+      "collection_name" : "Dickinson State University Herbarium",
+            "email" : "mary.barkworth@usu.edu"
+            "email" : "craig.whippo@dickinsonstate.edu",
+      "institution_web_address" : null,
+            "email" : "mcarling@uwyo.edu"
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "jmaley1@uwyo.edu",
+      "collection_name" : "UWYMV Mammal Collection (Arctos)",
+      "institution_web_address" : "http://www.uwyo.edu/biodiversity/vertebrate-museum/",
+      "collection_name" : "Illinois Natural History Survey",
+      "institution_web_address" : "http://www.inhs.uiuc.edu/animals_plants/index.html",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "amiller7@illinois.edu"
+      "collection_name" : "University of North Carolina Herbarium",
+      "institution_web_address" : "http://www.herbarium.unc.edu/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "mccormick@unc.edu",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "cbills@nhmu.utah.edu",
+      "institution_web_address" : "http://nhmu.utah.edu/",
+      "collection_name" : "Entomology Collection at the Natural History Museum of Utah",
+      "collection_name" : "MVZ Egg and Nest Collection (Arctos)",
+            "email" : "ccicero@berkeley.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "bowie@berkeley.edu",
+      "institution_web_address" : "http://mvz.berkeley.edu/Egg_Nest_Collection.html",
+      "institution_web_address" : "http://www.perotmuseum.org/explore-the-museum/collections/index.html",
+            "email" : "Karen.Morton@perotmuseum.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "Perot Museum of Nature and Science"
+      "institution_web_address" : "",
+            "email" : "hmays@cincymuseum.org",
+      "collection_name" : "CMC_ornithology_GRC"
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "Neil.Cobb@nau.edu"
+      "institution_web_address" : "http://www.bugs.nau.edu/",
+      "collection_name" : "Colorado Plateau Museum of Arthropod Biodiversity",
+            "email" : "egbot@asu.edu"
+            "email" : "trees@mortonarb.org",
+      "institution_web_address" : "http://www.mortonarb.org/",
+      "collection_name" : "Morton Aboretum",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "rothenberges@unk.edu"
+      "collection_name" : "University of Nebraska Kearney",
+      "institution_web_address" : "http://sweetgum.nybg.org/ih/herbarium.php?irn=156466"
+      "collection_name" : "Ohio State University Herbarium",
+      "institution_web_address" : "http://herbarium.osu.edu/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "freudenstein.1@osu.edu"
+      "institution_web_address" : "",
+      "collection_name" : "Entomology Division, Yale Peabody Museum",
+            "email" : "lawrence.gall@yale.edu",
+      "institution_web_address" : "",
+            "email" : "paulay@flmnh.ufl.edu",
+            "email" : "netadmin@flmnh.ufl.edu",
+      "collection_name" : "invertebratezoology",
+      "institution_web_address" : "http://peabody.yale.edu/collections/botany",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "patrick.sweeney@yale.edu"
+      "collection_name" : "Yale University Herbarium, Peabody Museum of Natural History",
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/ocgr.htm",
+      "collection_name" : "Tissues Specimens",
+            "email" : "jkbraun@ou.edu",
+            "email" : "pking@ou.edu",
+            "email" : "bcoyner@ou.edu",
+      "collection_name" : "Eastern Illinois University",
+      "institution_web_address" : "http://www.eiu.edu/~biology/cryptogamic_herbarium.php",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "asmethven@eiu.edu"
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "freirefierro@ansp.org"
+      "collection_name" : "Academy of Natural Sciences of Drexel University",
+      "institution_web_address" : "http://www.ansp.org/research/systematics-evolution/collections/botany/",
+      "institution_web_address" : "",
+            "email" : "henricia@carnegiemnh.org",
+            "email" : "lamanna@carnegiemnh.org",
+      "collection_name" : "Carnegie Museum of Natural History Vertebrate Paleontology Collection"
+      "collection_name" : "The Gray Herbarium (Harvard University Herbaria)",
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/gray.html",
+            "email" : "patrick.sweeney@yale.edu",
+            "email" : "cdavis@oeb.harvard.edu",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "Marilyn.marler@umontana.edu"
+      "collection_name" : "University of Montana Herbarium",
+      "institution_web_address" : "http://herbarium.dbs.umt.edu/",
+      "collection_name" : "UWYMV Bird Collection (Arctos)",
+      "institution_web_address" : "http://www.uwyo.edu/biodiversity/vertebrate-museum/",
+            "email" : "mcarling@uwyo.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "jmaley1@uwyo.edu",
+      "collection_name" : "Harvard University Herbaria",
+      "institution_web_address" : "http://kiki.huh.harvard.edu/databases/",
+            "email" : "bdim@oeb.harvard.edu",
+            "email" : "mschmull@oeb.harvard.edu",
+            "email" : "",
+            "email" : "dpfister@oeb.harvard.edu",
+            "email" : "cdavis@oeb.harvard.edu"
+            "email" : "mycoportal.contact@gmail.com",
+            "email" : "ret@eticomm.net",
+      "institution_web_address" : "http://www.amanitaceae.org",
+      "collection_name" : "Herbarium Amanitarum Rooseveltensis"
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/nebc.html",
+      "collection_name" : "New England Botanical Club (Harvard University Herbaria)",
+            "email" : "patrick.sweeney@yale.edu",
+            "email" : "cdavis@oeb.harvard.edu",
+            "email" : "lawrence.gall@yale.edu",
+      "collection_name" : "Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum",
+      "institution_web_address" : ""
+            "email" : "egbot@asu.edu"
+            "email" : "randrus@binghamton.edu",
+      "institution_web_address" : null,
+      "collection_name" : "State University of New York - Binghamton",
+      "collection_name" : "University of Colorado, Museum of Natural History",
+            "email" : "egbot@asu.edu"
+            "email" : "james.r.allen@Colorado.EDU"
+      "institution_web_address" : "http://cumuseum.colorado.edu/research/botany",
+            "email" : "kperkins@flmnh.ufl.edu"
+      "collection_name" : "University of Florida Herbarium (FLAS)",
+      "institution_web_address" : "",
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/ichthyology.htm",
+      "collection_name" : "Fish Specimens",
+            "email" : "emarsh@ou.edu",
+            "email" : "pking@ou.edu",
+            "email" : "cartwright@ou.edu",
+      "collection_name" : "University of Central Oklahoma Herbarium",
+      "institution_web_address" : "http://biology.uco.edu/uconhm/fungi.html",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "covrebo@uco.edu",
+            "email" : "patrick.sweeney@yale.edu"
+            "email" : "patrick.sweeney@yale.edu"
+      "institution_web_address" : "http://www.peabody.yale.edu/collections/bot/",
+      "collection_name" : "Yale University Herbarium, Peabody Museum of Natural History",
+      "institution_web_address" : "http://www.herbarium.lsu.edu/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "mblackwell@lsu.edu",
+      "collection_name" : "Bernard Lowy Mycological Herbarium (Louisiana State University)"
+      "institution_web_address" : "",
+            "email" : "lawrence.gall@yale.edu",
+      "collection_name" : "Paleobotany Division, Yale Peabody Museum"
+            "email" : "ben.norton@naturalsciences.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "vince.schneider@naturalsciences.org",
+      "collection_name" : "NCSM PaleoBotany Collection",
+      "institution_web_address" : "http://www.collections.naturalsciences.org/searchPaleoBotany.aspx"
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "wfertig@asu.edu",
+      "collection_name" : "Arizona State University Lichen Herbarium",
+      "institution_web_address" : "http://nhc.asu.edu/lichens/",
+      "collection_name" : "CUMV Reptile Collection (Arctos)",
+            "email" : "john.friel@cornell.edu",
+      "institution_web_address" : ""
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "sbrantle@unm.edu",
+      "institution_web_address" : "http://msb.unm.edu/arthropods/",
+      "collection_name" : "Museum of Southwestern Biology, Division of Arthropods",
+      "institution_web_address" : "",
+            "email" : "john.friel@cornell.edu",
+      "collection_name" : "CUMV Amphibian Collection (Arctos)",
+      "collection_name" : "NCSM Vertebrate Paleontology Collection",
+      "institution_web_address" : "http://www.collections.naturalsciences.org/searchVertPaleo.aspx",
+            "email" : "ben.norton@naturalsciences.org"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "vince.schneider@naturalsciences.org",
+      "institution_web_address" : "http://www.uaf.edu/museum/collections/herb/",
+      "collection_name" : "University of Alaska Museum of the North Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "smickertbond@alaska.edu",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "deane.bowers@colorado.edu"
+      "collection_name" : "University of Colorado Museum of Natural History Entomology Collection",
+      "institution_web_address" : "http://cumuseum.colorado.edu",
+      "institution_web_address" : "",
+      "collection_name" : "UAFMC Mammals",
+            "email" : "nmccartn@uark.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+      "collection_name" : "Stuart M. Fullerton Collection of Arthropods (UCFC), University of Central Florida",
+      "institution_web_address" : "http://bugcloset.cos.ucf.edu",
+            "email" : "song@ucf.edu"
+            "email" : "cora.1@osu.edu",
+            "email" : "stuartf@knights.ucf.edu"
+            "email" : "sandor.kelly@ucf.edu"
+      "collection_name" : "University of Alaska Museum of the North Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "smickertbond@alaska.edu"
+      "institution_web_address" : "http://www.uaf.edu/museum/collections/herb/",
+      "institution_web_address" : "http://research.calacademy.org/ent/",
+      "collection_name" : "CAS Entomology (ENT)",
+            "email" : "sblum@calacademy.org",
+            "email" : "jfong@calacademy.org",
+            "email" : "npenny@calacademy.org",
+      "institution_web_address" : "http://www.biosci.ohio-state.edu/~paleoich",
+            "email" : "daly.66@osu.edu",
+            "email" : "cora.1@osu.edu"
+            "email" : "kibbey.3@osu.edu"
+            "email" : "zimmerman.205@osu.edu",
+            "email" : "wentzel.11@osu.edu",
+            "email" : "baker.1156@osu.edu",
+      "collection_name" : "Ohio State University Fish Division (OSUM)",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "Neil.Cobb@nau.edu"
+      "collection_name" : "National Park Collections at Northern Arizona University",
+      "institution_web_address" : "http://www.bugs.nau.edu"
+      "institution_web_address" : "http://research.calacademy.org/botany/collections",
+      "collection_name" : "California Academy of Sciences",
+            "email" : "egbot@asu.edu"
+            "email" : "dtrock@calacademy.org"
+      "collection_name" : "Georgia Southern University - Savannah Science Museum Herpetology Collection",
+      "institution_web_address" : "https://sites.google.com/a/georgiasouthern.edu/lance-mcbrayer/collections",
+            "email" : "lancemcbrayer@georgiasouthern.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "egbot@asu.edu"
+            "email" : "leu@lsu.edu",
+      "collection_name" : "Louisiana State University",
+      "institution_web_address" : "http://www.herbarium.lsu.edu/"
+      "collection_name" : "Vertebrate Zoology Division - Ornithology, Yale Peabody Museum",
+      "institution_web_address" : "",
+            "email" : "lawrence.gall@yale.edu"
+      "institution_web_address" : "http://wwx.inhs.illinois.edu/collections/herps",
+            "email" : "caphilli@illinois.edu"
+            "email" : "dwylie@illinois.edu",
+            "email" : "camayer@illinois.edu",
+      "collection_name" : "Illinois Natural History Survey - Amphibian and Reptile Collection",
+      "collection_name" : "Larry F. Grand Mycological Herbarium (North Carolina State University)",
+      "institution_web_address" : "http://ncslg.cals.ncsu.edu",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "macubeta@ncsu.edu"
+      "institution_web_address" : "http://www.plantpath.cornell.edu/CUPpages/",
+      "collection_name" : "Cornell Plant Pathology Herbarium",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "cup-herbarium@cornell.edu"
+      "institution_web_address" : "http://www.wnmu.edu/academic/nspages/gilacenter.shtml",
+            "email" : "jenningsr@wnmu.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu",
+      "collection_name" : "WNMU Mammal Collection (Arctos)"
+      "collection_name" : "C.P. Gillette Museum of Arthropod Diversity",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "Boris.Kondratieff@Colostate.edu",
+      "institution_web_address" : "http://www.bspm.colostate.edu/gillette%20museum/museum/home.html",
+            "email" : "griccardi@fsu.edu"
+            "email" : "dpaul@fsu.edu",
+            "email" : "mwoods@troy.edu",
+      "collection_name" : "Troy Herbarium Specimens from Morphbank",
+      "institution_web_address" : "http://spectrum.troy.edu/herbarium/",
+      "institution_web_address" : "",
+            "email" : "cmd7@cornell.edu"
+            "email" : "john.friel@cornell.edu"
+      "collection_name" : "CUMV Mammal Collection (Arctos)",
+      "collection_name" : "University of Washington Herbarium",
+      "institution_web_address" : "http://www.washington.edu/burkemuseum/collections/herbarium/index.php",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "wtu@u.washington.edu",
+      "institution_web_address" : "http://www.biosci.ohio-state.edu/~acarolog/collection",
+      "collection_name" : "Ohio State Acarology Laboratory (OSAL), Ohio State University",
+            "email" : "klompen.1@osu.edu",
+            "email" : "cora.1@osu.edu",
+      "collection_name" : "Joseph F. Rock Herbarium - University of Hawaii",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "mbthomas@hawaii.edu"
+      "institution_web_address" : "http://www.herbarium.hawaii.edu/",
+            "email" : "ufarrell@ku.edu"
+            "email" : "larussell@ku.edu"
+            "email" : "blieber@ku.edu"
+      "institution_web_address" : "",
+      "collection_name" : "KU Museum of Invertebrate Paleontology",
+      "collection_name" : "Illinois Natural History Survey Mollusk Collection",
+      "institution_web_address" : "http://wwx.inhs.illinois.edu/collections/mollusk",
+            "email" : "ksc@inhs.illinois.edu",
+            "email" : "camayer@illinois.edu",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "cup-herbarium@cornell.edu"
+      "institution_web_address" : "http://www.plantpath.cornell.edu/CUPpages/",
+      "collection_name" : "Cornell University Plant Pathology Herbarium",
+      "institution_web_address" : "http://www.uwyo.edu/biodiversity/vertebrate-museum/",
+      "collection_name" : "UWYMV Herpetology Collection (Arctos)",
+            "email" : "mcarling@uwyo.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "jmaley1@uwyo.edu",
+      "institution_web_address" : "http://cumuseum.colorado.edu/Research/Botany/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "james.r.allen@Colorado.EDU",
+      "collection_name" : "University of Colorado, Museum of Natural History",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "trees@mortonarb.org"
+      "institution_web_address" : "http://www.mortonarb.org/",
+      "collection_name" : "Morton Arboretum",
+      "collection_name" : "Wilhelm G. Solheim Mycological Herbarium",
+      "institution_web_address" : "http://www.rmh.uwyo.edu/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "rhartman@uwyo.edu",
+      "collection_name" : "North Dakota State University Herbarium",
+      "institution_web_address" : null,
+            "email" : "egbot@asu.edu"
+            "email" : "edward.dekeyser@ndsu.edu"
+      "collection_name" : "Museum of Comparative Zoology, Harvard University",
+      "institution_web_address" : "http://www.mcz.harvard.edu/about/index.html",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "bdim@oeb.harvard.edu"
+      "institution_web_address" : "http://ag.utah.gov/",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "cburfitt@ Utah.gov"
+      "collection_name" : "Utah Department of Agriculture and Food Entomology Collection",
+      "collection_name" : "West Virginia University Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "dford2@wvu.edu"
+      "institution_web_address" : "http://biology.wvu.edu/facilities/herbarium"
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "ccripps@montana.edu"
+      "institution_web_address" : "http://www.montana.edu/mlavin/herb/herb1.htm",
+      "collection_name" : "Montana State University Herbarium",
+      "collection_name" : "Tri-Trophic Interactions - Texas A&amp;M",
+      "institution_web_address" : "http://insects.tamu.edu/tamuinsectcollection/",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "j-oswald@tamu.edu"
+            "email" : "kfahy@sbnature2.org"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "pcollins@sbnature2.org"
+            "email" : "mberman@sbnature2.org",
+      "institution_web_address" : "http://www.sbcollections.org/",
+      "collection_name" : "SBMNH Vertebrate Zoology",
+      "institution_web_address" : "http://museum.msu.edu/?q=natural",
+            "email" : "abraczi1@msu.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "lundriga@msu.edu"
+            "email" : "rasmus39@msu.edu",
+            "email" : "gottfrie@msu.edu",
+      "collection_name" : "MSU Mammalogy, Ornithology and Vertebrate Paleontology Collections",
+      "institution_web_address" : null,
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "aweir@esf.edu"
+      "collection_name" : "SUNY College of Environmental Science and Forestry Herbarium",
+      "institution_web_address" : "http://collections.nysm.nysed.gov/mycology/index.html",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "lleonar2@mail.nysed.gov",
+      "collection_name" : "New York State Museum",
+      "institution_web_address" : "",
+      "collection_name" : "HSU Wildlife Eggs and Nests",
+            "email" : "td6@humboldt.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "j-oswald@tamu.edu"
+      "institution_web_address" : "http://insects.tamu.edu/tamuinsectcollection/ ",
+      "collection_name" : "Texas A&amp;M University Insect Collection"
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "jrohrer@uwec.edu"
+      "institution_web_address" : "http://www.uwec.edu/Biology/about/facilities.htm",
+      "collection_name" : "University of Wisconsin - Eau Claire",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "regan@mail.unomaha.edu"
+      "institution_web_address" : "http://www.unomaha.edu/",
+      "collection_name" : "University of Nebraska at Omaha Herbarium",
+      "institution_web_address" : null,
+            "email" : "Mary.Barkworth@usu.edu"
+            "email" : "sstern@coloradomesa.edu",
+      "collection_name" : "Colorado Mesa University, Walter A. Kelly Herbarium"
+      "institution_web_address" : "http://www.nysm.nysed.gov/research_collections/collections/biology/ornithology/index.html",
+            "email" : "dgerhard@mail.nysed.gov",
+            "email" : "estevens@mail.nysed.gov",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "jkirchma@mail.nysed.gov",
+      "collection_name" : "NYSM Birds",
+      "institution_web_address" : "http://taxonbytes.org/asuhic/",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "nico.franz@asu.edu, slee281@asu.edu",
+      "collection_name" : "Arizona State University Hasbrouck Insect Collection",
+      "institution_web_address" : "http://herbarium.lsa.umich.edu/",
+      "collection_name" : "University of Michigan Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "rabeler@umich.edu",
+      "collection_name" : "George Safford Torrey Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "Robert.Capers@uconn.edu"
+      "institution_web_address" : "http://bgbaseserver.eeb.uconn.edu/",
+      "institution_web_address" : "http://wwx.inhs.illinois.edu/collections",
+      "collection_name" : "University of Illinois Herbarium",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "amiller7@illinois.edu"
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/ornithology.htm",
+      "collection_name" : "Nest Specimen",
+            "email" : "tyuri@ou.edu",
+            "email" : "pking@ou.edu",
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/farlow.html",
+      "collection_name" : "Farlow Herbarium (Harvard University)",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "dpfister@oeb.harvard.edu"
+            "email" : "Mary.Barkworth@usu.edu"
+            "email" : "ggust@envlc.org"
+      "collection_name" : "Eastern Nevada Landscape Coalition",
+      "institution_web_address" : "http://www.envlc.org/"
+      "institution_web_address" : "http://herbarium.usu.edu/default.htm",
+            "email" : "egbot@asu.edu"
+            "email" : "mary.barkworth@usu.edu",
+      "collection_name" : "Intermountain Herbarium (Utah State University)",
+      "collection_name" : "Robert K. Godfrey Herbarium  at Florida State University",
+      "institution_web_address" : "http://herbarium.bio.fsu.edu/",
+            "email" : "",
+            "email" : "herbarium@bio.fsu.edu",
+      "institution_web_address" : "http://mvz.berkeley.edu/Herp_Collection.html",
+            "email" : "atrox@berkeley.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "mcguirej@berkeley.edu",
+            "email" : "wakelab@berkeley.edu",
+            "email" : "mkoo@berkeley.edu",
+      "collection_name" : "MVZ Herp Collection (Arctos)"
+      "institution_web_address" : "http://www.msb.unm.edu/parasites",
+      "collection_name" : "MSB Host Collection (Arctos)",
+            "email" : "sbrant@unm.edu"
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "esloker@unm.edu",
+            "email" : "campbell@carachupa.org",
+            "email" : "gordon.jarrellj@gmail.com"
+      "institution_web_address" : "http://www.bio.indiana.edu/faculty/facilities/herbarium.shtml",
+      "collection_name" : "Indiana University Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "eknox@indiana.edu",
+      "collection_name" : "Fairchild Tropical Botanic Garden Herbarium",
+      "institution_web_address" : "http://www.fairchildgarden.org/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "bjestrow@fairchildgarden.org",
+      "institution_web_address" : "http://www.uaf.edu/museum/collections/mammal/",
+      "collection_name" : "UAM Mammal Collection (Arctos)",
+            "email" : "leolson@alaska.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "amgunderson@alaska.edu"
+            "email" : "kbhildebrandt@alaska.edu",
+            "email" : "seinetadmin@asu.edu"
+            "email" : "tina.ayers@nau.edu & deaver.herbarium@nau.edu"
+      "collection_name" : "Deaver Herbarium (Northern Arizona University)",
+      "institution_web_address" : "http://nau.edu/Merriam-Powell/Biodiversity-Center/Deaver-Herbarium/",
+      "collection_name" : "Ohio State University Tetrapod Division - Mammal Collection (OSUM)",
+      "institution_web_address" : "http://tetrapods.osu.edu",
+            "email" : "nelson.794@osu.edu",
+            "email" : "cora.1@osu.edu",
+      "collection_name" : "University of Florida Herbarium",
+      "institution_web_address" : "http://www.flmnh.ufl.edu/herbarium/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "herb@flmnh.ufl.edu",
+      "institution_web_address" : "",
+            "email" : "lawrence.gall@yale.edu"
+      "collection_name" : "Invertebrate Zoology Division, Yale Peabody Museum",
+      "collection_name" : "University of Maine Herbaria",
+            "email" : "egbot@asu.edu",
+            "email" : "campbell@maine.edu"
+      "institution_web_address" : "http://herbaria.umaine.edu/",
+            "email" : "smickertbond@alaska.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "jsmetzgar@alaska.edu",
+            "email" : "fnarb@uaf.edu"
+      "collection_name" : "UAM Herbarium (ALA), Vascular Plant Collection (Arctos)",
+      "institution_web_address" : "http://www.uaf.edu/museum/collections/herb/"
+      "collection_name" : "Davis &amp; Elkins College Herbarium",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "mabrym@dewv.edu",
+      "institution_web_address" : null
+      "collection_name" : "Brigham Young University",
+      "institution_web_address" : "http://mlbean.byu.edu/",
+            "email" : "egbot@asu.edu"
+            "email" : "Larry_StClair@byu.edu"
+            "email" : "sblum@calacademy.org",
+            "email" : "jfong@calacademy.org"
+            "email" : "mflannery@calacademy.org",
+      "collection_name" : "CAS Ornithology (ORN)",
+      "institution_web_address" : ""
+      "institution_web_address" : "http://museum.unl.edu/research/botany/botany.html",
+      "collection_name" : "University of Nebraska State Museum, C.E. Bessey Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "rkaul1@unl.edu",
+            "email" : "nrios@tulane.edu",
+            "email" : "hbartjr@tulane.edu",
+      "collection_name" : "Tulane University Biodiversity Research Institute, Royal D. Suttkus Fish Collections",
+      "institution_web_address" : "http://www.tubri.org/fishes/",
+            "email" : "john.demboski@dmns.org"
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu"
+            "email" : "jeff.stephenson@dmns.org"
+      "institution_web_address" : "http://www.dmns.org/science/collections/dmns-zoology-collections",
+      "collection_name" : "DMNS Bird Collection (Arctos)"
+      "institution_web_address" : "",
+            "email" : "sblum@calacademy.org",
+            "email" : "jfong@calacademy.org",
+            "email" : "CPiotrowski@calacademy.org",
+      "collection_name" : "CAS Invertebrate Zoology (IZ)",
+      "institution_web_address" : "",
+            "email" : "maxn@flmnh.ufl.edu",
+            "email" : "netadmin@flmnh.ufl.edu"
+      "collection_name" : "herpetology",
+      "collection_name" : "University of Tennessee Herbarium",
+      "institution_web_address" : "http://tenn.bio.utk.edu/vascular",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "bewofford@utk.edu",
+      "collection_name" : "CAS Ichthyology (ICH)",
+      "institution_web_address" : "http://research.calacademy.org/ichthyology/collections/",
+            "email" : "sblum@calacademy.org",
+            "email" : "jfong@calacademy.org",
+            "email" : "dcatania@calacademy.org",
+            "email" : "lrocha@calacademy.org",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "wtu@u.washington.edu",
+      "institution_web_address" : "http://biology.burke.washington.edu/herbarium/collections/list.php",
+      "collection_name" : "University of Washington Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "mole@morris.net"
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/farlow.html",
+      "collection_name" : "Farlow Herbarium"
+      "collection_name" : "Herbarium of the Arnold Arboretum (Harvard University Herbaria)",
+            "email" : "patrick.sweeney@yale.edu",
+            "email" : "cdavis@oeb.harvard.edu"
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/arboretum.html",
+      "collection_name" : "MLZ Bird Collection (Arctos)",
+      "institution_web_address" : "http://www.oxy.edu/moore-lab-zoology",
+            "email" : "mccormack@oxy.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "jmaley@oxy.edu",
+      "collection_name" : "UF FLMNH Ichthyology",
+      "institution_web_address" : "",
+            "email" : "rhrobins@flmnh.ufl.edu"
+            "email" : "egbot@asu.edu"
+            "email" : "patrick.bohlen@ucf.edu",
+      "institution_web_address" : "http://arboretum.ucf.edu/programs/herbarium/",
+      "collection_name" : "University of Central Florida Herbarium"
+      "institution_web_address" : "http://www.fieldmuseum.org/research_collections/botany/default.htm",
+      "collection_name" : "Field Museum of Natural History",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "rlucking@fieldmuseum.org"
+      "institution_web_address" : "",
+            "email" : "rafe@ku.edu",
+            "email" : "larussell@ku.edu",
+            "email" : "trueb@ku.edu"
+            "email" : "glor@ku.edu",
+      "collection_name" : "KUBI Herpetology Collection"
+      "collection_name" : "Illinois Natural History Survey Crustacean Collection",
+      "institution_web_address" : "http://wwx.inhs.illinois.edu/collections/crustaceans",
+            "email" : "ctaylor@inhs.illinois.edu",
+            "email" : "camayer@illinois.edu",
+            "email" : "dwylie@illinois.edu"
+            "email" : "atrox@berkeley.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "ccicero@berkeley.edu"
+            "email" : "ondatra@berkeley.edu",
+            "email" : ",mkoo@berkeley.edu",
+      "institution_web_address" : "http://mvz.berkeley.edu/Other_Collections.html",
+      "collection_name" : "MVZ Hildebrand Collection (Arctos)"
+      "institution_web_address" : "http://www.dbg.org/",
+      "collection_name" : "Desert Botanical Garden Herbarium Collection",
+            "email" : "seinetadmin@asu.edu"
+            "email" : "asalywon@dbg.org",
+      "institution_web_address" : "http://sweetgum.nybg.org/ih/herbarium.php?irn=156466",
+            "email" : "egbot@asu.edu"
+            "email" : "rothenberges@unk.edu",
+      "collection_name" : "University of Nebraska Kearney",
+      "institution_web_address" : "http://appl003.lsu.edu/natsci/lmns.nsf/$Content/Mammals?OpenDocument",
+      "collection_name" : "LSUMZ Mammals Collection",
+            "email" : "esselstyn@lsu.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu"
+      "institution_web_address" : "http://www.unh.edu/herbarium/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "janets@cisunix.unh.edu"
+      "collection_name" : "University of New Hampshire",
+      "collection_name" : "Tarleton State University Herbarium",
+      "institution_web_address" : "http://faculty.tarleton.edu/nelson/index.html",
+            "email" : "mary.barkworth@usu.edu"
+            "email" : "nelson@tarleton.edu"
+      "institution_web_address" : "http://www.emporia.edu/smnh/",
+            "email" : "wjensen1@emporia.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+      "collection_name" : "Schmidt Museum of Natural History_Mammals"
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/economic.html",
+      "collection_name" : "Economic Herbarium of Oakes Ames (Harvard University Herbaria)",
+            "email" : "patrick.sweeney@yale.edu",
+            "email" : "cdavis@oeb.harvard.edu",
+      "institution_web_address" : "http://herbarium.usu.edu/default.htm",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "mary@biology.usu.edu",
+      "collection_name" : "Intermountain Herbarium (Utah State University)",
+      "institution_web_address" : "http://aumnh.org/research-collections/fishes",
+            "email" : "wernedc@auburn.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "armbrjw@mail.auburn.edu"
+      "collection_name" : "AUM Fish Collection",
+      "collection_name" : "South Dakota State University Herbarium",
+      "institution_web_address" : null,
+            "email" : "mary.barkworth@usu.edu"
+            "email" : "gary.larson@sdstate.edu"
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "cmorse@ku.edu",
+      "institution_web_address" : "http://botany.biodiversity.ku.edu/",
+      "collection_name" : "Ronald L. McGregor Herbarium at the University of Kansas"
+      "collection_name" : "Brigham Young University Arthropod Museum",
+      "institution_web_address" : "http://mlbean.byu.edu/",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "shawn_clark@byu.edu",
+      "collection_name" : "Illinois Natural History Survey Fish Collection",
+            "email" : "ctaylor@inhs.illinois.edu",
+      "institution_web_address" : "http://wwx.inhs.illinois.edu/collections/fish",
+      "institution_web_address" : "http://www.evergreen.edu/",
+      "collection_name" : "Evergreen Natural History Museum",
+            "email" : "egbot@asu.edu"
+            "email" : "lalita.calabria@gmail.com",
+            "email" : "egbot@asu.edu"
+            "email" : "aneill@brit.org",
+      "collection_name" : "Botanical Research Institute of Texas",
+      "institution_web_address" : "http://www.brit.org/herbarium"
+            "email" : "cmorse@ku.edu"
+            "email" : "ccfree@ku.edu",
+            "email" : "memort@ku.edu",
+            "email" : "larussell@ku.edu",
+      "institution_web_address" : "http://botany.biodiversity.ku.edu/collections",
+      "collection_name" : "R. L. McGregor Herbarium Lichen Collection",
+      "collection_name" : "Ohio State University Herbarium",
+      "institution_web_address" : "http://herbarium.osu.edu/",
+            "email" : "egbot@asu.edu",
+            "email" : "freudenstein.1@osu.edu"
+      "institution_web_address" : "http://uaic.as.ua.edu",
+      "collection_name" : "UAIC Ichthyological Collection",
+            "email" : "randal.a.singer@ua.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "pharris@bama.ua.edu",
+      "collection_name" : "University of Nebraska State Museum, C.E. Bessey Herbarium",
+      "institution_web_address" : "http://museum.unl.edu/research/botany/botany.html",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "rkaul1@unl.edu"
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "rubinoff@hawaii.edu"
+      "collection_name" : "University of Hawaii Insect Museum",
+      "institution_web_address" : "http://www.ctahr.hawaii.edu/insectmuseum/"
+      "institution_web_address" : "",
+            "email" : "lawrence.gall@yale.edu",
+      "collection_name" : "Vertebrate Zoology Division - Herpetology, Yale Peabody Museum",
+      "collection_name" : "Ada Hayden Herbarium (Iowa State University)",
+      "institution_web_address" : "http://www.public.iastate.edu/~herbarium/",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "lgclark@iastate.edu"
+            "email" : "Mary.Barkworth@usu.edu"
+            "email" : "darren.pollock@enmu.edu"
+      "institution_web_address" : "http://www.enmu.edu/services/museums/natural-history/",
+      "collection_name" : "ENMU Natural History Collection Herbarium",
+      "collection_name" : "University of Connecticut",
+      "institution_web_address" : "http://bgbaseserver.eeb.uconn.edu/",
+            "email" : "Chris.Neefus@unh.edu"
+            "email" : "Robert.Capers@uconn.edu"
+      "institution_web_address" : "http://herbarium.duke.edu",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "flutzoni@duke.edu",
+      "collection_name" : "Duke University Herbarium",
+      "collection_name" : "Brigham Young University",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "Larry_StClair@byu.edu"
+      "institution_web_address" : "http://mlbean.byu.edu/ResearchCollections/Collections/Lichens.aspx"
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "ericgchapman@gmail.com"
+      "collection_name" : "Hymenoptera Institute Collection",
+      "institution_web_address" : "http://sharkeylab.org/sharkeylab/sharkeyProjects.php"
+      "institution_web_address" : "http://herbarium.rutgers.edu/",
+            "email" : "egbot@asu.edu"
+            "email" : "jwhite@aesop.rutgers.edu"
+      "collection_name" : "Chrysler Herbarium of Rutgers University",
+            "email" : "gnelson@bio.fsu.edu"
+            "email" : "godfoder@acis.ufl.edu",
+      "institution_web_address" : "http://www.talltimbers.org/museum.html",
+      "collection_name" : "Tall Timbers Research Station Ornithological Collection",
+      "collection_name" : "Gregory P. Setliff Collection - Kutztown University",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "setliff@kutztown.edu",
+      "institution_web_address" : "http://www.kutztown.edu/acad/biology/"
+      "collection_name" : "Tall Timbers Research Station Roy Komarek Mammal Collection",
+      "institution_web_address" : "http://www.talltimbers.org/museum.html",
+            "email" : "gnelson@bio.fsu.edu",
+            "email" : "godfoder@acis.ufl.edu",
+      "collection_name" : "R. L. McGregor Herbarium Vascular Plants Collection",
+            "email" : "cmorse@ku.edu"
+            "email" : "ccfree@ku.edu"
+            "email" : "memort@ku.edu",
+            "email" : "larussell@ku.edu"
+      "institution_web_address" : "http://botany.biodiversity.ku.edu/collections",
+      "institution_web_address" : "http://tetrapods.osu.edu",
+      "collection_name" : "Ohio State University Tetrapod Division - Amphibian Collection (OSUM)",
+            "email" : "nelson.794@osu.edu",
+            "email" : "cora.1@osu.edu"
+            "email" : "MDeyrup@archbold-station.org"
+      "institution_web_address" : "http://www.archbold-station.org/",
+      "collection_name" : "Archbold Biological Station Hymenoptera Collection",
+      "institution_web_address" : "http://www.inhs.uiuc.edu/animals_plants/insect/",
+            "email" : "arboridia@gmail.com"
+            "email" : "chdietri@illinois.edu"
+            "email" : "dewalt@illinois.edu"
+            "email" : "fsoto@illinois.edu"
+      "collection_name" : "Illinois Natural History Survey Insect Collection",
+      "collection_name" : "State University of New York College at Cortland",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "Tim.Baroni@cortland.edu"
+      "institution_web_address" : null
+            "email" : "jenningsr@wnmu.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu"
+      "institution_web_address" : "http://www.wnmu.edu/academic/nspages/gilacenter.shtml",
+      "collection_name" : "WNMU Bird Collection (Arctos)"
+            "email" : "bfisher@calacademy.org",
+            "email" : "sblum@calacademy.org",
+      "collection_name" : "AntWeb",
+      "institution_web_address" : "http://antweb.org",
+      "collection_name" : "University of North Carolina Herbarium",
+      "institution_web_address" : "http://www.herbarium.unc.edu/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "mccormick@unc.edu",
+      "institution_web_address" : "http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "ted.esslinger@ndsu.edu"
+      "collection_name" : "T. L. Esslinger Herbarium"
+      "collection_name" : "University of Illinois Herbarium",
+      "institution_web_address" : null,
+            "email" : "egbot@asu.edu"
+            "email" : "amiller7@illinois.edu",
+      "collection_name" : "MLZ Mammal Collection (Arctos)",
+      "institution_web_address" : "http://www.oxy.edu/moore-lab-zoology",
+            "email" : "mccormack@oxy.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu"
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "jmaley@oxy.edu",
+            "email" : "egbot@asu.edu"
+            "email" : "patrick.sweeney@yale.edu",
+      "institution_web_address" : "http://peabody.yale.edu/collections/botany",
+      "collection_name" : "Yale University Herbarium, Peabody Museum of Natural History",
+      "institution_web_address" : "http://biology.richmond.edu/resources/herbarium.html",
+            "email" : "egbot@asu.edu"
+            "email" : "jhayden@richmond.edu",
+      "collection_name" : "University of Richmond Herbarium",
+      "institution_web_address" : "http://cumuseum.colorado.edu/research/vertebrates",
+            "email" : "christy.mccain@colorado.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "UCM Birds",
+      "institution_web_address" : "http://cumuseum.colorado.edu/research/vertebrates",
+      "collection_name" : "UCM Amphibians and Reptiles",
+            "email" : "christy.mccain@colorado.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "egbot@asu.edu"
+            "email" : "freirefierro@ansp.org"
+      "institution_web_address" : "http://www.ansp.org/research/systematics-evolution/collections/botany/",
+      "collection_name" : "Academy of Natural Sciences of Drexel University"
+            "email" : "catfish@austin.utexas.edu"
+            "email" : "travieso@austin.utexas.edu"
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "TNHC Herpetology Collection",
+      "institution_web_address" : "http://www.utexas.edu/tmm/tnhc/herps/index.html"
+      "collection_name" : "CMC_herpetology_vouchers",
+      "institution_web_address" : "",
+            "email" : "hmays@cincymuseum.org",
+            "email" : "cmd7@cornell.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+      "collection_name" : "CUMV Bird Collection (Arctos)",
+      "institution_web_address" : "http://www.cumv.cornell.edu/wiki/pages/s685Z4G4/CUMV_Bird_Collection.html"
+            "email" : "gc@greatlakeseco.com",
+            "email" : "atrox@berkeley.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "henderson@mpm.edu",
+      "collection_name" : "MPM Herpetology",
+      "institution_web_address" : ""
+      "institution_web_address" : "http://herbarium.muohio.edu/herbariummu/",
+      "collection_name" : "Miami University Willard Sherman Turrell Herbarium",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "vincenma@miamioh.edu",
+      "institution_web_address" : "http://cumuseum.colorado.edu/research/vertebrates",
+      "collection_name" : "UCM Fishes",
+            "email" : "christy.mccain@colorado.edu"
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "gshugart@pugetsound.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+      "institution_web_address" : "http://www.pugetsound.edu/academics/academic-resources/slater-museum/about-the-museum/collections-summary",
+      "collection_name" : "PSM Vertebrates Collection"
+            "email" : "nanders0@umd.edu",
+            "email" : "jdhall@umd.edu",
+      "collection_name" : "Norton Brown Herbarium",
+      "institution_web_address" : "http://www.nbh.psla.umd.edu/search.php"
+            "email" : "robert.capers@uconn.edu",
+      "institution_web_address" : "http://bgbaseserver.eeb.uconn.edu/",
+      "collection_name" : "idigbio1 Herbarium databasing project",
+      "institution_web_address" : "http://wwx.inhs.illinois.edu/collections",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "amiller7@illinois.edu",
+      "collection_name" : "Illinois Natural History Survey",
+      "collection_name" : "UAM Fish Collection (Arctos)",
+      "institution_web_address" : "http://www.uaf.edu/museum/collections/aqua/",
+            "email" : "jalopez2@alaska.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu"
+      "institution_web_address" : "http://www.mobot.org/mobot/research/herbarium.shtml",
+            "email" : "egbot@asu.edu"
+            "email" : "bruce.allen@mobot.org",
+      "collection_name" : "Missouri Botanical Garden"
+      "collection_name" : "University of Tennessee Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "bewofford@utk.edu",
+      "institution_web_address" : "http://tenn.bio.utk.edu/bryophyte/bryoph.shtml",
+      "collection_name" : "Tall Timbers Research Station Specimens from Morphbank",
+      "institution_web_address" : "",
+            "email" : "griccardi@fsu.edu"
+            "email" : "dpaul@fsu.edu"
+            "email" : "gnelson@bio.fsu.edu"
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "Amy.Rossman@ars.usda.gov",
+      "institution_web_address" : "http://ars.usda.gov/ba/psi/smml",
+      "collection_name" : "United States National Fungus Collections"
+            "email" : "patrick.sweeney@yale.edu",
+            "email" : "cdavis@oeb.harvard.edu"
+      "collection_name" : "Orchid Herbarium of Oakes Ames (Harvard University Herbaria)",
+      "institution_web_address" : "http://www.huh.harvard.edu/collections/oakes.html",
+      "collection_name" : "UAM Entomology Collection (Arctos)",
+            "email" : "dssikes@alaska.edu",
+            "email" : "larussell@vertnet.org"
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+      "institution_web_address" : "http://www.uaf.edu/museum/collections/ento/"
+      "collection_name" : "Massey Herbarium (Virginia Tech)",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "wieboldt@vt.edu"
+      "institution_web_address" : "http://www.biol.vt.edu/about/herbarium/",
+      "institution_web_address" : "http://sciweb.nybg.org/science2/SteereHerbarium.asp",
+      "collection_name" : "New York Botanical Garden",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "bthiers@nybg.org"
+      "collection_name" : "Reptile Specimens",
+      "institution_web_address" : "http://www.snomnh.ou.edu/collections-research/herpetology.htm",
+            "email" : "camsiler@ou.edu",
+            "email" : "pking@ou.edu",
+      "institution_web_address" : "http://biology.wvu.edu/facilities/herbarium",
+      "collection_name" : "West Virginia University Herbarium",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "dford2@wvu.edu"
+            "email" : "gnelson@bio.fsu.edu",
+            "email" : "godfoder@acis.ufl.edu"
+      "institution_web_address" : "http://www.talltimbers.org/museum.html",
+      "collection_name" : "Tall Timbers Research Station Insects Collection",
+      "institution_web_address" : null,
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "amiller7@illinois.edu"
+      "collection_name" : "University of Illinois Herbarium"
+      "institution_web_address" : "http://tetrapods.osu.edu",
+      "collection_name" : "Ohio State University Tetrapod Division - Reptile Collection (OSUM)",
+            "email" : "nelson.794@osu.edu"
+            "email" : "cora.1@osu.edu",
+      "institution_web_address" : "http://www.sdnhm.org/science/herpetology/",
+      "collection_name" : "SDNHM Herpetology Collection",
+            "email" : "bhollingsworth@sdnhm.org",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu"
+            "email" : "rgarcia@sdnhm.org",
+      "collection_name" : "University of Washington Herbarium",
+      "institution_web_address" : "http://www.washington.edu/burkemuseum/collections/herbarium/index.php",
+            "email" : "egbot@asu.edu"
+            "email" : "wtu@u.washington.edu",
+      "collection_name" : "Pringle Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "djallard@uvm.edu"
+      "institution_web_address" : "http://www.uvm.edu/~plantbio/pringle/",
+      "collection_name" : "Fairchild Tropical Botanic Garden Herbarium",
+      "institution_web_address" : "http://www.fairchildgarden.org/",
+            "email" : "egbot@asu.edu"
+            "email" : "bjestrow@fairchildgarden.org",
+      "collection_name" : "Illinois Natural History Survey",
+      "institution_web_address" : "http://www.inhs.illinois.edu/",
+            "email" : "egbot@asu.edu"
+            "email" : "amiller7@illinois.edu",
+      "collection_name" : "Michigan State University Herbarium Lichens",
+      "institution_web_address" : "http://www.herbarium.msu.edu/lichen.html",
+            "email" : "fryday@msu.edu",
+            "email" : "alan@msu.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+            "email" : "billy@plantbiology.msu.edu",
+      "collection_name" : "UCM Mammals Collection",
+      "institution_web_address" : "http://cumuseum.colorado.edu/research/vertebrates",
+            "email" : "christy.mccain@colorado.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org"
+            "email" : "tuco@berkeley.edu",
+      "collection_name" : "CCBER Herpetology Collection",
+            "email" : "sweet@lifesci.ucsb.edu"
+            "email" : "hannah@ccber.ucsb.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "beas-moix@ccber.ucsb.edu",
+      "institution_web_address" : "http://ccber.ucsb.edu/collections/zoological/herpetology",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "stbates@umn.edu",
+      "collection_name" : "Bell Museum of Natural History Herbarium: Fungal Collection (University of Minnesota)",
+      "institution_web_address" : "http://www.bellmuseum.umn.edu/ResearchandTeaching/Collections/ScientificCollection/FungalHerbarium/index.htm",
+            "email" : "egbot@asu.edu"
+            "email" : "ngarwood@plant.siu.edu"
+      "institution_web_address" : "http://plantbiology.siu.edu/facilities/plant-biology-facilities/SIU-herbarium.php",
+      "collection_name" : "Southern Illinois University Herbarium"
+      "collection_name" : "Scarab Central: World Scarabaeoidea",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "maryliz.jameson@gmail.com"
+      "institution_web_address" : "http://museum.unl.edu/research/entomology/scarabcentral.html",
+      "collection_name" : "KUBI Mammalogy Collection",
+            "email" : "slade@ku.edu",
+            "email" : "larussell@ku.edu",
+            "email" : "btimm@ku.edu",
+      "institution_web_address" : "http://mammalogy.biodiversity.ku.edu/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "jhayden@richmond.edu",
+      "collection_name" : "University of Richmond Herbarium",
+      "institution_web_address" : "http://biology.richmond.edu/resources/herbarium.html",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "Robert.Capers@uconn.edu"
+      "institution_web_address" : "http://bgbaseserver.eeb.uconn.edu/",
+      "collection_name" : "George Safford Torrey Herbarium",
+            "email" : "johnson.2@osu.edu",
+            "email" : "cora.1@osu.edu"
+            "email" : "musetti.2@osu.edu",
+            "email" : "hemly.1@osu.edu"
+      "collection_name" : "C.A. Triplehorn Insect Collection (OSUC), Ohio State University",
+      "institution_web_address" : "http://osuc.osu.edu",
+      "institution_web_address" : "http://mvz.berkeley.edu/Mammal_Collection.html",
+            "email" : "ondatra@berkeley.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+            "email" : "dlmcdonald@alaska.edu",
+            "email" : "ealacey@berkeley.edu"
+            "email" : "patton@berkeley.edu"
+      "collection_name" : "MVZ Mammal Collection (Arctos)",
+      "collection_name" : "University of Florida Herbarium",
+            "email" : "egbot@asu.edu"
+            "email" : "herb@flmnh.ufl.edu",
+      "institution_web_address" : "http://www.flmnh.ufl.edu/herbarium/"
+      "institution_web_address" : "http://www.uvm.edu/~plantbio/pringle/",
+            "email" : "CNALHadmin@asu.edu"
+            "email" : "djallard@uvm.edu",
+      "collection_name" : "Pringle Herbarium",
+      "collection_name" : "HSU Wildlife Mammals",
+            "email" : "tamar.danufsky@humboldt.edu",
+            "email" : "larussell@vertnet.org",
+            "email" : "dbloom@vertnet.org",
+            "email" : "tuco@berkeley.edu",
+      "institution_web_address" : "",
+      "collection_name" : "Sam Mitchel Herbarium of Fungi (Denver Botanic Garden)",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "evensonv@botanicgardens.org"
+      "institution_web_address" : "http://www.botanicgardens.org/research-conservation/sam-mitchel-herbarium-fungi",
+      "institution_web_address" : "http://www.archbold-station.org/",
+      "collection_name" : "Archbold Biological Station",
+            "email" : "seinetadmin@asu.edu"
+            "email" : "EMenges@archbold-station.org",
+            "email" : "mycoportal.contact@gmail.com"
+            "email" : "genevaerin@gmail.com"
+      "collection_name" : "College of the Atlantic/Acadia National Park Herbarium",
+      "institution_web_address" : "http://www.coa.edu/herbarium.htm",
+            "email" : "Paul.Heinrich@nau.edu"
+            "email" : "cbundy@nmsu.edu",
+      "institution_web_address" : "http://aces.nmsu.edu/academics/arthropods/index.html",
+      "collection_name" : "New Mexico State Collection of Arthropods"
