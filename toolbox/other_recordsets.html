@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+</head>
+<h3>Find the other recordsets from the same publisher as recordset (UUID)</h3>
+<form id="target">
+  <input type="text" value="recordset_uuid">
+  <input type="button" value="Go" onclick="doit()">
+</form>
+<div id="results">
+  <hr>
+</div>
+
+<script>
+function doit()
+// $( "#target" ).submit(function( event ) {
+{
+if ( $( "input" ).val() !== "recordset_uuid" ) 
+{
+  $("#results").empty();
+  $("#results").append("<hr>");
+  var uuid = $("input").val();
+  var idigbioAPIurl = "http://api.idigbio.org/v1/recordsets/".append(uuid);
+  
+  $("#results").append(uuid);
+  $("#results").append("<hr>");
+  $("#results").append(idigbioAPIurl);
+    
+  event.preventDefault();
+}
+};
+
+</script>
+
+
+</html>
