@@ -1,4 +1,4 @@
-use v6;
+v6;
 use JSON::Tiny;
 use HTTP::Client;
 
