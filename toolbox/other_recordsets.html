@@ -20,6 +20,11 @@ function doit(){
     $("#results").empty();
     $("#results").append("<hr>");
     var idigbioAPIurl = "http://api.idigbio.org/v1/recordsets/".concat(uuid);
+
+// use jQuery parseJSON()
+//var obj = jQuery.parseJSON( '{ "name": "John" }' );
+//alert( obj.name === "John" );
+
     var rjsono = $.getJSON(idigbioAPIurl);
     console.log (rjsono);
 //    $("#results").append(rjsono["idigbio:dateModified"]);
