@@ -81,10 +81,13 @@ for item in soup.find_all(img_wrap_tag):
         break
     try:
         myimage=Image.open(fetchresult)
-        mysha=hashlib.md5(myimage.content).hexdigest()
-        print "********" + mysha + "********" # not printing?
-        fulloutfilepath = outdir + "x" + myimage.format
-    #    myimage.save(outdir+"outputfile."+myimage.format)
-        myimage.save(fulloutfilepath)
     except:
         logging.error ("Does not look like image: " + item[hyper_ref])
+        break
+
+    myhash=hashlib.md5(myimage.tobytes).hexdigest()
+    print "********" + myhash + "********" # not printing?
+    fulloutfilepath = outdir + myhash + myimage.format
+    #    myimage.save(outdir+"outputfile."+myimage.format)
+    myimage.save(fulloutfilepath)
+    
