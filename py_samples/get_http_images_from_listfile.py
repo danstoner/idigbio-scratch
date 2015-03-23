@@ -5,13 +5,14 @@ try:
     import requests
     import logging
     import urllib
+    import hashlib
     from PIL import Image
     from bs4 import BeautifulSoup
 except ImportError, e:
     print "IMPORT ERROR: %s" % e
     raise SystemExit
 
-outdir = os.getcwd()+"/"  # default to current directory
+outdir = os.getcwd()+"/"  # default output to current directory
 
 argparser = argparse.ArgumentParser(description='Script to download a list of images from an html or pseudo-html file.')
 argparser.add_argument("-d", "--debug", action="store_true", help="Enable debug level logging.")
@@ -78,8 +79,12 @@ for item in soup.find_all(img_wrap_tag):
     except:
         logging.error ("Could not GET url: " + r.url)
         break
-    myimage=Image.open(fetchresult)
-    streng = outdir + "outputfile." + myimage.format
-#    myimage.save(outdir+"outputfile."+myimage.format)
-    myimage.save(streng)
-
+    try:
+        myimage=Image.open(fetchresult)
+        mysha=hashlib.md5(myimage.content).hexdigest()
+        print "********" + mysha + "********" # not printing?
+        fulloutfilepath = outdir + "x" + myimage.format
+    #    myimage.save(outdir+"outputfile."+myimage.format)
+        myimage.save(fulloutfilepath)
+    except:
+        logging.error ("Does not look like image: " + item[hyper_ref])
