@@ -30,7 +30,7 @@ else:
     logging.basicConfig(level=logging.INFO)
 
 if args.outdir:
-    # make sure path has trialing backslash
+    # make sure path has trailing backslash
     outdir = args.outdir.rstrip('/')+'/'
 
 logging.info("Output Directory (outdir): " + outdir)
