@@ -6,6 +6,7 @@ try:
     import logging
     import urllib
     import hashlib
+    import io
     from PIL import Image
     from bs4 import BeautifulSoup
 except ImportError, e:
@@ -74,19 +75,29 @@ else:
 
 for item in soup.find_all(img_wrap_tag):
     logging.info("Fetching: " + item[hyper_ref])
+
+## see
+##  http://pillow.readthedocs.org/en/latest/reference/Image.html#PIL.Image.Image.load
+##  https://docs.python.org/2/library/urllib.html
+##  https://docs.python.org/2/library/io.html
+##  http://effbot.org/imagingbook/image.htm
+
+##      ##  a big mess ##
     try:
-        fetchresult, msg = urllib.urlretrieve(item[hyper_ref])
+#        io.BytesIO(urllib.urlretrieve(item[hyper_ref]))
+#        fetchresult, msg = urllib.urlretrieve(item[hyper_ref],memf)
+        fetchresult = urllib.urlretrieve(item[hyper_ref]).data
     except:
-        logging.error ("Could not GET url: " + r.url)
+        logging.error ("Could not GET url: " + item[hyper_ref])
         break
     try:
-        myimage=Image.open(fetchresult)
+        myimage=Image.open(memf)
     except:
         logging.error ("Does not look like image: " + item[hyper_ref])
         break
-
-    myhash=hashlib.md5(myimage.tobytes).hexdigest()
-    print "********" + myhash + "********" # not printing?
+    myhash=hashlib.md5()
+    myhash.update(memf.getvalue())
+    print "********" + myhash.hexdigest() + "********" # not printing?
     fulloutfilepath = outdir + myhash + myimage.format
     #    myimage.save(outdir+"outputfile."+myimage.format)
     myimage.save(fulloutfilepath)
