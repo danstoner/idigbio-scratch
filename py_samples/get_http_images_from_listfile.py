@@ -7,6 +7,7 @@ try:
     import urllib
     import hashlib
     import io
+    import cStringIO
     from PIL import Image
     from bs4 import BeautifulSoup
 except ImportError, e:
@@ -86,19 +87,23 @@ for item in soup.find_all(img_wrap_tag):
     try:
 #        io.BytesIO(urllib.urlretrieve(item[hyper_ref]))
 #        fetchresult, msg = urllib.urlretrieve(item[hyper_ref],memf)
-        fetchresult = urllib.urlretrieve(item[hyper_ref]).data
+#        stream = io.BytesIO(urllib.urlretrieve(item[hyper_ref]).data)
+#        fetchresult = urllib.urlretrieve(item[hyper_ref]).data
+         request = requests.get(item[hyper_ref])
     except:
         logging.error ("Could not GET url: " + item[hyper_ref])
         break
     try:
-        myimage=Image.open(memf)
-    except:
+        #myimage=Image.open(memf)
+        myimage = Image.open(cStringIO.StringIO(request.content))
+    except IOError, e:
         logging.error ("Does not look like image: " + item[hyper_ref])
+        print e
         break
-    myhash=hashlib.md5()
-    myhash.update(memf.getvalue())
-    print "********" + myhash.hexdigest() + "********" # not printing?
-    fulloutfilepath = outdir + myhash + myimage.format
-    #    myimage.save(outdir+"outputfile."+myimage.format)
+    myhash = hashlib.md5()
+    myhash.update(request.content)
+
+    fulloutfilepath = outdir + myhash.hexdigest() + "." + myimage.format
+#    #    myimage.save(outdir+"outputfile."+myimage.format)
     myimage.save(fulloutfilepath)
-    
+
