@@ -7,7 +7,8 @@ try:
     import urllib
     import hashlib
     import io
-    import cStringIO
+#    import cStringIO
+    import StringIO
     from PIL import Image
     from bs4 import BeautifulSoup
 except ImportError, e:
@@ -71,39 +72,44 @@ else:
 
 # Consider doing something here to keep track of succeeds and failures
 
-
-#s = requests.session()
+seen_count = 0;
+success_count = 0;
+fail_count = 0;
 
 for item in soup.find_all(img_wrap_tag):
+    seen_count += 1
     logging.info("Fetching: " + item[hyper_ref])
-
-## see
-##  http://pillow.readthedocs.org/en/latest/reference/Image.html#PIL.Image.Image.load
-##  https://docs.python.org/2/library/urllib.html
-##  https://docs.python.org/2/library/io.html
-##  http://effbot.org/imagingbook/image.htm
-
-##      ##  a big mess ##
     try:
-#        io.BytesIO(urllib.urlretrieve(item[hyper_ref]))
-#        fetchresult, msg = urllib.urlretrieve(item[hyper_ref],memf)
-#        stream = io.BytesIO(urllib.urlretrieve(item[hyper_ref]).data)
-#        fetchresult = urllib.urlretrieve(item[hyper_ref]).data
-         request = requests.get(item[hyper_ref])
+        request = requests.get(item[hyper_ref])
     except:
         logging.error ("Could not GET url: " + item[hyper_ref])
-        break
+        fail_count += 1
+        continue
+    imgbuf = StringIO.StringIO(request.content)
     try:
-        #myimage=Image.open(memf)
-        myimage = Image.open(cStringIO.StringIO(request.content))
-    except IOError, e:
-        logging.error ("Does not look like image: " + item[hyper_ref])
-        print e
-        break
-    myhash = hashlib.md5()
-    myhash.update(request.content)
+        myimage = Image.open(imgbuf)   # only using pillow to determine if we really have an image
+    except Exception, e:
+        logging.error ("Does not look like image: " + item[hyper_ref] + " **Exception: " + str(e))
+        fail_count += 1
+        continue
+    myhash = hashlib.md5()   # We will compute an md5 sum on the buffer to get a unique filename
+    imgbuf.seek(0)
+    myhash.update(imgbuf.read())
+    fulloutfilepath = outdir + myhash.hexdigest() + "." + myimage.format.lower()
+    if not os.path.exists(fulloutfilepath):   # skip files that already exist
+        with open(fulloutfilepath, 'wb') as outputfile:
+            imgbuf.seek(0)
+            outputfile.write(imgbuf.read())
+            success_count += 1
+    else:
+        logging.warning("File already exists: " + fulloutfilepath)
+        success_count += 1   # file exists will count as "success"
 
-    fulloutfilepath = outdir + myhash.hexdigest() + "." + myimage.format
-#    #    myimage.save(outdir+"outputfile."+myimage.format)
-    myimage.save(fulloutfilepath)
-
+print "------------------------------------------"
+print "File output dir: ", outdir
+print "------------------------------------------"
+print "COUNTS"
+print "Seen: ", seen_count
+print "Success: ", success_count
+print "Fail: ", fail_count
+print "------------------------------------------"
