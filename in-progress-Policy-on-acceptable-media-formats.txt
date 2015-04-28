@@ -1,4 +1,7 @@
 
+Forbid GIF images !
+
+
 Does "Hosted" have a connotation of "primary storage" built into it?  Consider finding a different word or phrase to replace hosted which really means "ingestable".
 
 
