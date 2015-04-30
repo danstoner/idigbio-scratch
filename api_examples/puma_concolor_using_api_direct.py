@@ -4,7 +4,6 @@ scientific name 'Puma concolor' and print the verbatim locality field.
 """
 
 import requests
-import json
 
 query_as_string = '{"rq":{"scientificname":"puma concolor"},"limit":10}'
 
