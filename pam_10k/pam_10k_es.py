@@ -39,13 +39,16 @@ if args.stopcount:
 else:
     stopcount = 10
 
-# These are output fields, same as the fields we pull out of the search results
+# These are the fields we pull out of the search results. geopoint is special since it includes "lon" and "lat"
 fields = ["uuid", "genus", "specificepithet", "geopoint", "country", "stateprovince", "county", "municipality"]
+outputheaderrow = ["uuid", "genus", "specificepithet", "lon", "lat", "country", "stateprovince", "county", "municipality"]
 ### CONSIDER using field list to limit volume of returned data:  
 ### http://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-fields.html
 ### Field names should be the things immediately under _source
 ###
-### or.. use _source include filter
+### The idigbio-search-api is supposed to allow "fields" but does not seem to work at this time.
+###
+### or.. use _source "include" filter
 ### http://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-source-filtering.html
 
 
@@ -84,7 +87,7 @@ class UnicodeWriter:
 # If we cannot open output file for write, might as well stop now.
 with open(outputfile,"w") as f:
     writer = UnicodeWriter(f)
-    writer.writerow(fields)
+    writer.writerow(outputheaderrow)
 
 
 
@@ -181,17 +184,25 @@ response_json = r.json()
 
 answer = dict()
 
-## need to move set popping here and consider querying for each row
+## consider moving set popping here and consider querying for each row (slow!)
 for hit in response_json["hits"]["hits"]:
     if "uuid" in hit["_source"]:
         id = hit["_source"]["uuid"]
         answer[id]=[]
         for field in fields:
             # have to add checking since each field might not exist in data
-            if field in hit["_source"]:
-                answer[id].append(hit["_source"][field])
+            if field == "geopoint":
+                if field in hit["_source"]:
+                    answer[id].append(hit["_source"][field]["lon"])
+                    answer[id].append(hit["_source"][field]["lat"])
+                else:
+                    answer[id].append("")
+                    answer[id].append("")
             else:
-                answer[id].append("")
+                if field in hit["_source"]:
+                    answer[id].append(hit["_source"][field])
+                else:
+                    answer[id].append("")
 #        print answer[id]
 #    print hit
 
@@ -201,64 +212,30 @@ print "Number of records for output: ", len(answer)
 # write the data to csv     
 with open(outputfile,"a") as f:
     writer = UnicodeWriter(f)
-    row = ""
+#    row = ""
     for a in answer:
-        for col in answer[a]:
-            row = row+str(col)
-        writer.writerow(row)
+#        row = answer[a]
+#        for col in answer[a]:
+#            row = row+str(col)
+        try:
+            writer.writerow(answer[a])
+        except Exception as e:
+            print e
+            print "Row = ", answer[a]
+
+
+# write to a file the csv records that did not have geopoint?
+
+
+# write to a file the list of values that did not match any records in iDigBio
+with open("no_records_matched_list.txt", "w") as f2:
+#    writer = csv.writer(f2)
+    for b in zerorecordsset:
+        f2.write(b+"\n")
 
 raise SystemExit
 
-
-### __END__
-
-while len(inputset) > 0:
-    while (place < 100) and len(inputset) > 0:
-        value = inputset.pop()
-        values.append(value.lower().strip())
-        place += 1
-        query = { field : values}
-        query_as_string = json.dumps( { field : values })
-#        print query
-        print query_as_string
-#    record_list = 
-#    answer.append(api.search_records(rq=query))
-    r = requests.post('http://beta-search.idigbio.org/v2/search/records/',data=query_as_string, headers={'content-type': 'application/json'})
-    response_json = r.json()
-    for item in response_json["items"]:
-        item_uuid = item["indexTerms"]["uuid"]
-        answer[item_uuid]=[]
-        for key in fields:
-            if key in item["indexTerms"]:
-                answer[item_uuid].append[item["indexTerms"][key]]
-        print type(answer[item_uuid])
-                
-    #print query
-#    print answer
-    values=list()
-    place = 0
-    break
-
-#print answer
-
-#query_as_string = '{"query" : "rq":{"scientificname":"puma concolor"},"limit":10},"email":"dstoner"}'
-#q_json = json.dumps(query_as_string)
-
-#r = requests.post('http://csv.idigbio.org/', data=json.loads(q_json), headers={'content-type': 'application/json'})
-#print r.text
-
-#r = requests.post('http://search.idigbio.org/idigbio/records/_search', data=json.loads(q_json), headers={'content-type': 'application/json'})
-
-
-
-raise SystemExit
-
-
-# for item in record_list["items"]:
-#     for key in item["indexTerms"]:
-#         if key == "genus":
-#             print item["indexTerms"][key]
-
+## __END__
 
 ##### sample json query with a few entries
 # {
