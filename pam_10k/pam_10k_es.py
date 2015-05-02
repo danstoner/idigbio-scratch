@@ -90,7 +90,6 @@ with open(outputfile,"w") as f:
     writer.writerow(outputheaderrow)
 
 
-
 # inputset will hold the lines we actually want to work on
 inputset = set()
 # zerorecordset will hold the lines that don't have any matching records
@@ -128,7 +127,7 @@ answer = dict()
 # answer_nogeopoint will hold the items that were thrown out because they lack geopoint
 answer_nogeopoint = dict()
 
-# require geopoint
+# This is the base query that we will add all of the value to under "terms"
 query = {
    "query" : {
       "filtered" : {
@@ -144,7 +143,7 @@ query = {
                },
                {
                   "terms" : {
-                     "genus" : []
+                     searchfield : []
                   }
                }
             ]
@@ -193,8 +192,8 @@ for hit in response_json["hits"]["hits"]:
             # have to add checking since each field might not exist in data
             if field == "geopoint":
                 if field in hit["_source"]:
-                    answer[id].append(hit["_source"][field]["lon"])
-                    answer[id].append(hit["_source"][field]["lat"])
+                    answer[id].append(str(hit["_source"][field]["lon"]))
+                    answer[id].append(str(hit["_source"][field]["lat"]))
                 else:
                     answer[id].append("")
                     answer[id].append("")
@@ -207,13 +206,21 @@ for hit in response_json["hits"]["hits"]:
 #    print hit
 
 
+print "Number of values that did not match any records in iDigBio: ", len(zerorecordsset)
+# write to a file the list of values that did not match any records in iDigBio
+with open("no_records_matched_list.txt", "w") as f2:
+    for b in zerorecordsset:
+        f2.write(b+"\n")
 
-print "Number of records for output: ", len(answer)
+
+print "Number of records for CSV output: ", len(answer)
 # write the data to csv     
+keys = answer.keys()
+
 with open(outputfile,"a") as f:
     writer = UnicodeWriter(f)
 #    row = ""
-    for a in answer:
+    for a in keys:
 #        row = answer[a]
 #        for col in answer[a]:
 #            row = row+str(col)
@@ -227,11 +234,6 @@ with open(outputfile,"a") as f:
 # write to a file the csv records that did not have geopoint?
 
 
-# write to a file the list of values that did not match any records in iDigBio
-with open("no_records_matched_list.txt", "w") as f2:
-#    writer = csv.writer(f2)
-    for b in zerorecordsset:
-        f2.write(b+"\n")
 
 raise SystemExit
 
