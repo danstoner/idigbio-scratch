@@ -1,0 +1,34 @@
+{
+   "query" : {
+      "filtered" : {
+         "query" : {
+            "match_all" : {}
+         },
+         "filter" : {
+            "and" : [
+               {
+                  "exists" : {
+                     "field" : "geopoint"
+                  }
+               },
+               {
+                  "terms" : {
+                     "genus" : [
+                        "acanthus",
+                        "aechmanthera",
+                        "acanthura",
+                        "afrofittonia",
+                        "acanthopale",
+                        "acanthopsis",
+                        "ancistranthus",
+                        "ambongia",
+                        "adhatoda",
+                        "achyrocalyx"
+                     ]
+                  }
+               }
+            ]
+         }
+      }
+   }
+}
