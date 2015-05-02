@@ -1,0 +1,10 @@
+{
+   "hits" : {
+      "hits" : [
+         {
+            "_source" : {
+               "geopoint" : {
+                  "lon" : -121.80862,
+                  "lat" : 39.744167
+               "county" : "butte",
+	       ...
