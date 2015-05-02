@@ -20,12 +20,13 @@ except ImportError, e:
 # have country, state, county, etc. so that we can check the lat/long
 # against the field)
 
-parser = argparse.ArgumentParser(description='Read list of values from file and search for records matching in specified field.')
+parser = argparse.ArgumentParser(description='Read list of values from file and search for records matching in specified field, output as CSV.')
 parser.add_argument('-i', '--inputfile', dest='inputfile', required=True, help="Input file must be one value per line.")
 parser.add_argument('-o', '--outputfile', dest='outputfile', required=True, help="Output filename for results (something.csv).")
 parser.add_argument('-f', '--field', dest='field', default='scientificname', help="The specified field must be an iDigbio indexed term.")
 parser.add_argument('--header-row', dest='header_row', default=False, action='store_true', help="Use this option if the first line of the input file is a header row.")
 parser.add_argument('--stop-count', dest='stopcount', type=int, help="Stop reading inputfile after this many rows. Default: 10")
+#parser.add_argument('--skip-counting', dest='skipcounting', default=False, action='store_true', help="Skip the steps to throw away values with 0 matches in iDigBio."
 args = parser.parse_args()
 
 
@@ -33,6 +34,8 @@ inputfile = args.inputfile
 outputfile = args.outputfile
 searchfield = args.field
 header_needs_skipped = args.header_row
+#skipcounting = args.skipcounting
+
 if args.stopcount:
 # may have issues if stopcount > 7000
     stopcount=args.stopcount
@@ -95,13 +98,15 @@ inputset = set()
 # zerorecordset will hold the lines that don't have any matching records
 zerorecordsset = set()
 
-count = 0
 
 def getmatchingcount(apiobj,thingtocount):  
     num = api.count_records(rq={searchfield: thingtocount})
     return num
 
+count = 0
 api = idigbio.json()
+
+print "Reading input file, getting counts for each value..."
 
 with open(inputfile, 'r') as f:
     for line in f:
@@ -113,12 +118,19 @@ with open(inputfile, 'r') as f:
             else:
                 zerorecordsset.add(line.strip())
             count += 1
+            if count % 100 == 0:
+                print 'input row:', count
         if count >= stopcount:
             break
 
+print "Writing inputset to last_inputset.csv..."
+with open("last_inputset.csv", "w") as f:
+    for c in inputset:
+        f.write(c+"\n")
+
 # print zerorecordsset
 
-
+print ""
 
 
  
@@ -149,8 +161,12 @@ query = {
             ]
          }
       }
+   },
+   "_source" : {
+      "include" : fields
    }
 }
+
 
 
 #query = {}
@@ -162,10 +178,17 @@ for each in inputset:
 #    query["filter"]["terms"][searchfield].append(each.lower())
     query["query"]["filtered"]["filter"]["and"][1]["terms"][searchfield].append(each.lower())
 
-print query
 query_json = json.dumps(query)
 
-r = requests.post('http://search.idigbio.org/idigbio/records/_search/?size=1000000',data=query_json, headers={'content-type': 'application/json'})
+print query
+# write to a file the list of values that did not match any records in iDigBio
+with open("last_query_run.json", "w") as f:
+        f.write(query_json)
+
+
+print "Starting the big query..."
+r = requests.post('http://search.idigbio.org/idigbio/records/_search/?size=10000000',data=query_json, headers={'content-type': 'application/json'})
+r.raise_for_status()
 
 response_json = r.json()
 
@@ -208,9 +231,9 @@ for hit in response_json["hits"]["hits"]:
 
 print "Number of values that did not match any records in iDigBio: ", len(zerorecordsset)
 # write to a file the list of values that did not match any records in iDigBio
-with open("no_records_matched_list.txt", "w") as f2:
+with open("no_records_matched_list.txt", "w") as f:
     for b in zerorecordsset:
-        f2.write(b+"\n")
+        f.write(b+"\n")
 
 
 print "Number of records for CSV output: ", len(answer)
