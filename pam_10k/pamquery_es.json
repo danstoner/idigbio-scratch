@@ -1,0 +1,22 @@
+{
+   "query" : {
+      "filtered" : {
+         "filter" : {
+            "terms" : {
+               "genus" : [
+                  "acanthus",
+                  "aechmanthera",
+                  "acanthura",
+                  "afrofittonia",
+                  "acanthopale",
+                  "acanthopsis",
+                  "ancistranthus",
+                  "ambongia",
+                  "adhatoda",
+                  "achyrocalyx"
+               ]
+            }
+         }
+      }
+   }
+}
