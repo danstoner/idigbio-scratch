@@ -9,6 +9,8 @@ try:
     import json
     import requests
     import csv
+    import cStringIO
+    import codecs
 except ImportError, e:
     print "IMPORT ERROR: %s" % e
     raise SystemExit
@@ -39,10 +41,49 @@ else:
 
 # These are output fields, same as the fields we pull out of the search results
 fields = ["uuid", "genus", "specificepithet", "geopoint", "country", "stateprovince", "county", "municipality"]
+### CONSIDER using field list to limit volume of returned data:  
+### http://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-fields.html
+### Field names should be the things immediately under _source
+###
+### or.. use _source include filter
+### http://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-source-filtering.html
+
+
+# UnicodeWriter class taken straight out of python docs
+# https://docs.python.org/2.7/library/csv.html#examples
+class UnicodeWriter:
+    """
+    A CSV writer which will write rows to CSV file "f",
+    which is encoded in the given encoding.
+    """
+
+    def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
+        # Redirect output to a queue
+        self.queue = cStringIO.StringIO()
+        self.writer = csv.writer(self.queue, dialect=dialect, **kwds)
+        self.stream = f
+        self.encoder = codecs.getincrementalencoder(encoding)()
+
+    def writerow(self, row):
+        self.writer.writerow([s.encode("utf-8") for s in row])
+        # Fetch UTF-8 output from the queue ...
+        data = self.queue.getvalue()
+        data = data.decode("utf-8")
+        # ... and reencode it into the target encoding
+        data = self.encoder.encode(data)
+        # write to the target stream
+        self.stream.write(data)
+        # empty queue
+        self.queue.truncate(0)
+
+    def writerows(self, rows):
+        for row in rows:
+            self.writerow(row)
+
 
 # If we cannot open output file for write, might as well stop now.
 with open(outputfile,"w") as f:
-    writer = csv.writer(f)
+    writer = UnicodeWriter(f)
     writer.writerow(fields)
 
 
@@ -75,16 +116,6 @@ with open(inputfile, 'r') as f:
 
 # print zerorecordsset
 
-# {
-#    "filter" : {
-#       "terms" : {
-#          "genus" : [
-#             "acanthus",
-#             "aechmanthera"
-#          ]
-#       }
-#    }
-# }
 
 
 
@@ -94,12 +125,31 @@ answer = dict()
 # answer_nogeopoint will hold the items that were thrown out because they lack geopoint
 answer_nogeopoint = dict()
 
+# require geopoint
+query = {
+   "query" : {
+      "filtered" : {
+         "query" : {
+            "match_all" : {}
+         },
+         "filter" : {
+            "and" : [
+               {
+                  "exists" : {
+                     "field" : "geopoint"
+                  }
+               },
+               {
+                  "terms" : {
+                     "genus" : []
+                  }
+               }
+            ]
+         }
+      }
+   }
+}
 
-
-query = { "filter" : {
-        "terms" : {
-        searchfield : []
-}}}
 
 #query = {}
 #values = list()
@@ -107,7 +157,8 @@ query = { "filter" : {
 
 
 for each in inputset:
-    query["filter"]["terms"][searchfield].append(each.lower())
+#    query["filter"]["terms"][searchfield].append(each.lower())
+    query["query"]["filtered"]["filter"]["and"][1]["terms"][searchfield].append(each.lower())
 
 print query
 query_json = json.dumps(query)
@@ -130,7 +181,6 @@ response_json = r.json()
 
 answer = dict()
 
-
 ## need to move set popping here and consider querying for each row
 for hit in response_json["hits"]["hits"]:
     if "uuid" in hit["_source"]:
@@ -150,9 +200,12 @@ for hit in response_json["hits"]["hits"]:
 print "Number of records for output: ", len(answer)
 # write the data to csv     
 with open(outputfile,"a") as f:
-    writer = csv.writer(f)
+    writer = UnicodeWriter(f)
+    row = ""
     for a in answer:
-        writer.writerow(answer[a])
+        for col in answer[a]:
+            row = row+str(col)
+        writer.writerow(row)
 
 raise SystemExit
 
@@ -205,3 +258,52 @@ raise SystemExit
 #     for key in item["indexTerms"]:
 #         if key == "genus":
 #             print item["indexTerms"][key]
+
+
+##### sample json query with a few entries
+# {
+#    "filter" : {
+#       "terms" : {
+#          "genus" : [
+#             "acanthus",
+#             "aechmanthera"
+#          ]
+#       }
+#    }
+# }
+
+##### sample json query with a few genus entries AND exists
+# {
+#    "query" : {
+#       "filtered" : {
+#          "query" : {
+#             "match_all" : {}
+#          },
+#          "filter" : {
+#             "and" : [
+#                {
+#                   "exists" : {
+#                      "field" : "geopoint"
+#                   }
+#                },
+#                {
+#                   "terms" : {
+#                      "genus" : [
+#                         "acanthus",
+#                         "aechmanthera",
+#                         "acanthura",
+#                         "afrofittonia",
+#                         "acanthopale",
+#                         "acanthopsis",
+#                         "ancistranthus",
+#                         "ambongia",
+#                         "adhatoda",
+#                         "achyrocalyx"
+#                      ]
+#                   }
+#                }
+#             ]
+#          }
+#       }
+#    }
+# }
