@@ -15,24 +15,23 @@ args = parser.parse_args()
 
 inputfile = args.inputfile
 field = args.field
-header_row = args.header_row
+header_needs_skipped = args.header_row
 if args.stopcount:
-# seem to hit issues if stopcount > 7000
+# may have issues if stopcount > 7000
     stopcount=args.stopcount
 else:
     stopcount = 10
 
 inputset = set()
-header_needs_skipped = True
 
 count = 0
 
 with open(inputfile, 'r') as f:
     for line in f:
-        if header_needs_skipped and header_row:
+        if header_needs_skipped:
             header_needs_skipped = False
         else:
-            inputset.add(line)
+            inputset.add(line.strip())
             count += 1
         if count >= stopcount:
             break
@@ -49,8 +48,6 @@ with open(inputfile, 'r') as f:
 # }
 
 
-#api = idigbio.json()
-
 answer = dict()
 fields = ["uuid", "genus", "specificepithet", "geopoint", "country", "stateprovince", "county", "municipality"]
 
@@ -59,21 +56,50 @@ query = { "filter" : {
         "genus" : []
 }}}
 
-
 #query = {}
-values = list()
-place = 0
+#values = list()
+#place = 0
 
 
 for each in inputset:
-    query["filter"]["terms"]["genus"].append(each.strip())
+    query["filter"]["terms"]["genus"].append(each.lower())
 
 print query
+query_json = json.dumps(query)
+
+r = requests.post('http://search.idigbio.org/idigbio/records/_search/?size=1000000',data=query_json, headers={'content-type': 'application/json'})
+
+response_json = r.json()
+
+#### response structure ####
+# {
+#    "hits" : {
+#       "hits" : [
+#          {
+#             "_source" : {
+#                "geopoint" : {
+#                   "lon" : -121.80862,
+#                   "lat" : 39.744167
+#                "county" : "butte",
+# 	       ...
+
+answer = dict()
+
+for hit in response_json["hits"]["hits"]:
+    if "uuid" in hit["_source"]:
+        id = hit["_source"]["uuid"]
+        answer[id]=[]
+        for field in fields:
+            # have to add checking since each field might not exist in data
+            if field in hit["_source"]:
+                answer[id].append(hit["_source"][field])
+            else:
+                answer[id].append("")
+        print answer[id]
+#    print hit
+
 
 raise SystemExit
-
-
-########## DO ON MONDAY ---- try to get "fields" to work
 
 while len(inputset) > 0:
     while (place < 100) and len(inputset) > 0:
