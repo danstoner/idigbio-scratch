@@ -85,6 +85,8 @@ response_json = r.json()
 
 answer = dict()
 
+
+## need to move set popping here and consider querying for each row
 for hit in response_json["hits"]["hits"]:
     if "uuid" in hit["_source"]:
         id = hit["_source"]["uuid"]
