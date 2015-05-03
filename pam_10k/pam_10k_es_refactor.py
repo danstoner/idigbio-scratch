@@ -11,6 +11,7 @@ try:
     import csv
     import cStringIO
     import codecs
+    import copy
 except ImportError, e:
     print "IMPORT ERROR: %s" % e
     raise SystemExit
@@ -26,6 +27,7 @@ parser.add_argument('-o', '--outputfile', dest='outputfile', required=True, help
 parser.add_argument('-f', '--field', dest='field', default='scientificname', help="The specified field must be an iDigbio indexed term.")
 parser.add_argument('--header-row', dest='header_row', default=False, action='store_true', help="Use this option if the first line of the input file is a header row.")
 parser.add_argument('--stop-count', dest='stopcount', type=int, help="Stop reading inputfile after this many rows. Default: 10")
+parser.add_argument('--only-count', dest='onlycount', default=False, action='store_true', help="Aborts after gathering counts and building the working sets.")
 #parser.add_argument('--skip-counting', dest='skipcounting', default=False, action='store_true', help="Skip the steps to throw away values with 0 matches in iDigBio."
 args = parser.parse_args()
 
@@ -34,6 +36,7 @@ inputfile = args.inputfile
 outputfile = args.outputfile
 searchfield = args.field
 header_needs_skipped = args.header_row
+only_do_counts = args.onlycount
 #skipcounting = args.skipcounting
 
 if args.stopcount:
@@ -43,17 +46,8 @@ else:
     stopcount = 10
 
 # These are the fields we pull out of the search results. geopoint is special since it includes "lon" and "lat"
-fields = ["uuid", "genus", "specificepithet", "geopoint", "country", "stateprovince", "county", "municipality"]
-outputheaderrow = ["uuid", "genus", "specificepithet", "lon", "lat", "country", "stateprovince", "county", "municipality"]
-### CONSIDER using field list to limit volume of returned data:  
-### http://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-fields.html
-### Field names should be the things immediately under _source
-###
-### The idigbio-search-api is supposed to allow "fields" but does not seem to work at this time.
-###
-### or.. use _source "include" filter
-### http://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-source-filtering.html
-
+fields = ["uuid", "genus", "specificepithet", "scientificname", "geopoint", "country", "stateprovince", "county", "municipality"]
+outputheaderrow = ["uuid", "genus", "specificepithet", "scientificname", "lon", "lat", "country", "stateprovince", "county", "municipality"]
 
 # UnicodeWriter class taken straight out of python docs
 # https://docs.python.org/2.7/library/csv.html#examples
@@ -89,12 +83,13 @@ class UnicodeWriter:
 
 # If we cannot open output file for write, might as well stop now.
 with open(outputfile,"w") as f:
-    writer = UnicodeWriter(f)
+    writer = UnicodeWriter(f,quoting=csv.QUOTE_ALL)
     writer.writerow(outputheaderrow)
 
 
 # inputset will hold the lines we actually want to work on
 inputset = set()
+smallinputset = set()
 # zerorecordset will hold the lines that don't have any matching records
 zerorecordsset = set()
 
@@ -110,46 +105,63 @@ print "Reading input file, getting counts for each value..."
 
 with open(inputfile, 'r') as f:
     for line in f:
+        stripped = line.strip()
+        la_record_count = getmatchingcount(api,stripped)
         if header_needs_skipped:
             header_needs_skipped = False
         else:
-            if getmatchingcount(api,line.strip()) > 0:
-                inputset.add(line.strip())
+            if la_record_count > 5:
+                inputset.add(stripped)
+            elif la_record_count == 0:
+                zerorecordsset.add(stripped)
             else:
-                zerorecordsset.add(line.strip())
+                smallinputset.add(stripped)
             count += 1
             if count % 100 == 0:
                 print 'input row:', count
         if count >= stopcount:
             break
 
+print "Number of values that did not match any records in iDigBio (zerorecordsset): ", len(zerorecordsset)
+print "Number of values with small number of matches (smallinputset): ", len(smallinputset)
+print "Number of values with more than a small number of matches (inputset):", len(inputset)
+
+print "Writing zerorecordsset to last_zerorecordsset.csv..."
+# write to a file the list of values that did not match any records in iDigBio
+with open("last_zerorecordsset.csv", "w") as f:
+    for b in zerorecordsset:
+        f.write(b+"\n")
+
+print "Writing smallinputset to last_smallinputset.csv..."
+with open("last_smallinputset.csv", "w") as f:
+    for c in smallinputset:
+        f.write(c+"\n")
+
 print "Writing inputset to last_inputset.csv..."
 with open("last_inputset.csv", "w") as f:
     for c in inputset:
         f.write(c+"\n")
 
-# print zerorecordsset
-
 print ""
 
+if only_do_counts:
+    raise SystemExit
 
  
-# answer will hold the items that have geopoint
-answer = dict()
-# answer_nogeopoint will hold the items that were thrown out because they lack geopoint
-answer_nogeopoint = dict()
+# # answer will hold the items that have geopoint
+# answer = dict()
+# # answer_nogeopoint will hold the items that were thrown out because they lack geopoint
+# answer_nogeopoint = dict()
 
 
 ### big loop, search 1 record at a time
 
 answer = dict()
 querycount = 0
-print "Begin iterating searches on ", len(inputset), "values."
+print "Begin iterating searches on ", len(inputset)+len(smallinputset), "values."
 
 
-for each in inputset:
-# This is the base query that we will add all of the value to under "terms"
-    query = {
+basequery = {
       "query" : {
       "filtered" : {
          "query" : {
@@ -176,14 +188,16 @@ for each in inputset:
    }
 }
 
-
+#################################### BIG WORK #######################
+## smallinputset get lumped into single query, inputset will run one by one
+for each in inputset:
+    query=copy.deepcopy(basequery)
     query["query"]["filtered"]["filter"]["and"][1]["terms"][searchfield].append(each.lower())
     query_json = json.dumps(query)
     querycount += 1
-    if querycount % 100 == 0:
-        print 'Queries:', count
+    if querycount % 500 == 0:
+        print 'Queries (inputset):', querycount
     try:
-        print query_json
         r = requests.post('http://search.idigbio.org/idigbio/records/_search/?size=1000000',data=query_json, headers={'content-type': 'application/json'})
         r.raise_for_status()
     except requests.exceptions.HTTPError as e:
@@ -212,8 +226,50 @@ for each in inputset:
                         answer[id].append("")
     #        print answer[id]
     #    print hit
+
+
+query=copy.deepcopy(basequery)
+querycount = 0
+for each in smallinputset:
+    query["query"]["filtered"]["filter"]["and"][1]["terms"][searchfield].append(each.lower())
+    querycount += 1
+    if querycount % 500 == 0:
+        print 'Values added to query terms:', querycount
+
+query_json = json.dumps(query)
+
+try:
+    r = requests.post('http://search.idigbio.org/idigbio/records/_search/?size=1000000',data=query_json, headers={'content-type': 'application/json'})
+    r.raise_for_status()
+except requests.exceptions.HTTPError as e:
+    print "Error on query:"
+    print query
+    print "####"
+    print e
+
+response_json = r.json()
+for hit in response_json["hits"]["hits"]:
+    if "uuid" in hit["_source"]:
+        id = hit["_source"]["uuid"]
+        answer[id]=[]
+        for field in fields:
+            # have to add checking since each field might not exist in data
+            if field == "geopoint":
+                if field in hit["_source"]:
+                    answer[id].append(str(hit["_source"][field]["lon"]))
+                    answer[id].append(str(hit["_source"][field]["lat"]))
+                else:
+                    answer[id].append("")
+                    answer[id].append("")
+            else:
+                if field in hit["_source"]:
+                    answer[id].append(hit["_source"][field])
+                else:
+                    answer[id].append("")
+#        print answer[id]
+#    print hit
+
     
-raise SystemExit
 #print query
 # write to a file the list of values that did not match any records in iDigBio
 #with open("last_query_run.json", "w") as f:
@@ -235,21 +291,12 @@ raise SystemExit
 
 
 
-
-
-print "Number of values that did not match any records in iDigBio: ", len(zerorecordsset)
-# write to a file the list of values that did not match any records in iDigBio
-with open("no_records_matched_list.txt", "w") as f:
-    for b in zerorecordsset:
-        f.write(b+"\n")
-
-
 print "Number of records for CSV output: ", len(answer)
 # write the data to csv     
 keys = answer.keys()
 
 with open(outputfile,"a") as f:
-    writer = UnicodeWriter(f)
+    writer = UnicodeWriter(f,quoting=csv.QUOTE_ALL)
 #    row = ""
     for a in keys:
 #        row = answer[a]
