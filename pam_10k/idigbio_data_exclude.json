@@ -1,0 +1,31 @@
+{
+   "query" : {
+      "filtered" : {
+         "filter" : {
+            "and" : [
+               {
+                  "exists" : {
+                     "field" : "collector"
+                  }
+               },
+               {
+                  "terms" : {
+                     "collector" : [
+                        "pyle",
+                        "richard"
+                     ]
+                  }
+               }
+            ]
+         },
+         "query" : {
+            "match_all" : {}
+         }
+      }
+   },
+   "_source" : {
+      "exclude" : [
+      		"data"
+      ]
+   }
+}
