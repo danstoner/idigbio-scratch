@@ -28,7 +28,7 @@ parser.add_argument('-f', '--field', dest='field', default='scientificname', hel
 parser.add_argument('--header-row', dest='header_row', default=False, action='store_true', help="Use this option if the first line of the input file is a header row.")
 parser.add_argument('--stop-count', dest='stopcount', type=int, help="Stop reading inputfile after this many rows. Default: 10")
 parser.add_argument('--only-count', dest='onlycount', default=False, action='store_true', help="Aborts after gathering counts and building the working sets.")
-#parser.add_argument('--skip-counting', dest='skipcounting', default=False, action='store_true', help="Skip the steps to throw away values with 0 matches in iDigBio."
+
 args = parser.parse_args()
 
 
@@ -37,7 +37,6 @@ outputfile = args.outputfile
 searchfield = args.field
 header_needs_skipped = args.header_row
 only_do_counts = args.onlycount
-#skipcounting = args.skipcounting
 
 if args.stopcount:
 # may have issues if stopcount > 7000
@@ -148,11 +147,6 @@ if only_do_counts:
     raise SystemExit
 
  
-# # answer will hold the items that have geopoint
-# answer = dict()
-# # answer_nogeopoint will hold the items that were thrown out because they lack geopoint
-# answer_nogeopoint = dict()
-
 
 ### big loop, search 1 record at a time
 
@@ -266,28 +260,7 @@ for hit in response_json["hits"]["hits"]:
                     answer[id].append(hit["_source"][field])
                 else:
                     answer[id].append("")
-#        print answer[id]
-#    print hit
 
-    
-#print query
-# write to a file the list of values that did not match any records in iDigBio
-#with open("last_query_run.json", "w") as f:
-#        f.write(query_json)
-
-
-
-#### response structure ####
-# {
-#    "hits" : {
-#       "hits" : [
-#          {
-#             "_source" : {
-#                "geopoint" : {
-#                   "lon" : -121.80862,
-#                   "lat" : 39.744167
-#                "county" : "butte",
-# 	       ...
 
 
 
@@ -297,11 +270,7 @@ keys = answer.keys()
 
 with open(outputfile,"a") as f:
     writer = UnicodeWriter(f,quoting=csv.QUOTE_ALL)
-#    row = ""
     for a in keys:
-#        row = answer[a]
-#        for col in answer[a]:
-#            row = row+str(col)
         try:
             writer.writerow(answer[a])
         except Exception as e:
@@ -309,13 +278,9 @@ with open(outputfile,"a") as f:
             print "Row = ", answer[a]
 
 
-# write to a file the csv records that did not have geopoint?
-
-
 
 raise SystemExit
-
-## __END__
+## END ##
 
 ##### sample json query with a few entries
 # {
@@ -364,3 +329,16 @@ raise SystemExit
 #       }
 #    }
 # }
+
+
+#### sample iDigBio Elasticsearch response structure ####
+# {
+#    "hits" : {
+#       "hits" : [
+#          {
+#             "_source" : {
+#                "geopoint" : {
+#                   "lon" : -121.80862,
+#                   "lat" : 39.744167
+#                "county" : "butte",
+# 	       ...
