@@ -1,5 +1,5 @@
 
-Forbid GIF images !
+GIF images?
 
 
 Does "Hosted" have a connotation of "primary storage" built into it?  Consider finding a different word or phrase to replace hosted which really means "ingestable".
@@ -41,6 +41,58 @@ video
 3d-image
 
 
+See iDigBio API Hackathon 2015 notes for list of tools and examples:
+https://docs.google.com/document/d/11oghuM8R5SgP2aBWFnEvA4sOjfs3Le7ujGJ2QDECODs
+excerpt:
+Getting file sizes down to ~20M or so for a good usable models.
+Notes for iDigBio ingestion guidelines:
+Best Quality web file = STL, 500k polygons, file size < 25 MB, binary encoding
+Possible size “webview” for iDigBio - player or image with 3 or 4 different orientation views
+Possible size “thumbnail” for iDigBio - single orientation or rotating animated .GIF
+thumbnais can be generated via GLC-Player (GLC-Player.net) for STL files by exporting folder data to html. possibly easiest method.
+THREE.js utilizing webGL seems to be the ideal method of displaying models, tools can be created to allow for cross-sectioning.
+
+Further questions: 
+best possible “screenshot” of 3d model by provider vs. automatic generation of thumbnals
+Adobe 3D PDF capabilities possibly handled by media type of PDF, not 3D?
+three.js javascript an option to display 3d in browsers
+
+
+
+
+
+This is what we presented at CYWG 2014
+(https://docs.google.com/presentation/d/1xJkn3_FDuwIJRn9XQ64yGmywJ0bgB8Z5lSM0EbBDrP8/edit#slide=id.g3e4c383c9_06)
+
+In the wild, ac:associatedSpecimenReference tends NOT to provide the bare occurrence id of the related specimen, so instead we use the implicit relationship via coreid in the DwC-A.
+
+Specimen Data
+dwc:occurrenceID:  3bca767a-5a25-42c0-12...
+
+dwc:scientificName: Carcharocles megalodon
+dwc:catalogNumber:  UF 105199
+dwc:stateProvince:  Florida
+dwc:county:  Duval
+dwc:latestPeriodOrHighestSystem:  Miocene
+dwc:decimalLatitude:  30.39211
+...
+
+Media Data
+dcterms:identifier:  9a3025b1-f686-4e43-915f-...
+coreid: 3bca767a-5a25-42c0-12...
+dwc:scientificName: Carcharocles megalodon
+ac:associatedSpecimenReference: http://museum...
+dc:type: image
+ac:subtype: http://www.fabbers.com/StL.asp
+ac:subtypeLiteral: 3dModel
+ac:tag: tooth
+...
+
+
+
+Definitions
+
+“Fit for Display” - This is a phrase that relates to file types and other inline text, encoding or attachments, that are not HTML and that are supported by web browsers natively, or less optimally with helper applications. For instance, most browsers have native support for PDF, JPG, and GIF. This allows a browser to render the content of these files types for a user to view.  All other types of web page content, like MP3, require a helper, either built-in or installed. In the preferences for a browser there are list of media types (or MIME types) paired with applications for ‘helping’ the browser display the content of that file reference. A helper application, sometimes called a plug-in, is software that knows how to render/display the content. Recall that HTML is the native language for web browsers.  Other media types, like TIFF, that require an application other than the browser or plug-in to view their content, fall outside the definition of “Fit for Display”.
 
 
 
@@ -53,15 +105,12 @@ Image processing should be carried out only on DNG or other RAW files to prevent
 Excessive image manipulation or compositing, including sharpening, enhancing color saturation or balance, and adjusting contrast should be avoided. 
 
 Image Distribution Recommendations
-Images uploaded to aggregators and portals should be ‘fit for display’.
+Images uploaded to aggregators and portals should be ‘fit for display’. 
 Lower quality images should be distributed to aggregators and portals only when there is no higher quality image available.
 When a low quality image is uploaded or distributed, the metadata for that image should indicate that it is the only image available for that specimen. (is this really necessary??)
 JPEG format at native resolution and minimal compression is preferred for distribution via the internet.
 Lossless compression is preferred.
 When lossless compression is not an option, lossy compression at the lowest level is preferred.
-
-
-“Fit for Display” - This is a technical term that relates to file types and other inline text, encoding or attachments, that are not HTML and that are supported natively, or with helper applications, by web browsers. For instance, most browsers have native support for PDF, JPG, and GIF. This allows a browser to render the content of these files types for a user to view.  All other types of web page content, like MP3, require a helper, either built-in or installed. In the preferences for a browser there are list of media types (or MIME types) paired with applications for ‘helping’ the browser display the content of that file reference. A helper application, sometimes called a plug-in, is software that knows how to render/display the content. Recall that HTML is the native language for web browsers.  Other media types, like TIFF, that require an application other than the browser or plug-in to view their content, fall outside the definition of “Fit for Display”.
 
 
 
