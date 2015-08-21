@@ -47,6 +47,15 @@ Audio Recordings
 	    "dc:format" : "model/mesh"
 	    "ac:subtypeLiteral" : "3DImage"
 
+Documents
+	Acceptable formats: Portable Document Format (PDF)
+	Common file extensions: PDF
+     	Common MIME types: ?
+     	Known Unacceptable formats: DOC, DOCX
+     	Audubon Core Sample Values:
+            "dc:type" : "Text"
+	    "dc:format" : "?"
+	    "ac:subtypeLiteral" : "?"
 
 
 The current policy is as follows:
