@@ -1,0 +1,57 @@
+Florida Museum of Natural History example:
+
+"dcterms:title": "specimen image"
+"dc:type": "InteractiveResource"
+"dc:format": "model/mesh"
+"ac:subtypeLiteral": "3DImage"
+
+
+
+
+
+
+
+
+ac:associatedSpecimenReference: http://museum...
+dc:type: InteractiveResource
+ac:subtype: http://www.fabbers.com/StL.asp
+ac:subtypeLiteral: 3dModel
+ac:tag: tooth
+dc:format: application/sla
+
+
+
+If we are chosing interactiveResource I am inclinded to chose a mime type that matches the "interactive" interpretation. So for example, something linke "application/x-stl-binary" or "application/sla".
+
+
+http://www.iana.org/assignments/media-types/media-types.xhtml
+
+
+https://github.com/hroncok/shared-mime-info-3dprint
+
+
+application/x-stl-binary
+see 
+  <!-- 3D models and GCODEs -->
+  <mime-type type="application/x-stl-binary">
+    <_comment>STL 3D model (binary)</_comment>
+    <sub-class-of type="application/octet-stream"/>
+    <generic-icon name="binary"/>
+    <glob pattern="*.stl"/>
+  </mime-type>
+
+  <mime-type type="application/x-stl-ascii">
+    <_comment>STL 3D model (ASCII)</_comment>
+    <sub-class-of type="text/plain"/>
+    <generic-icon name="text-x-generic"/>
+    <magic priority="50">
+      <match type="string" value="solid" offset="0"/>
+      <match type="string" value="SOLID" offset="0"/>
+    </magic>
+    <glob pattern="*.stl"/>
+  </mime-type>
+
+
+
+model/mesh
+see http://tools.ietf.org/html/rfc2077
