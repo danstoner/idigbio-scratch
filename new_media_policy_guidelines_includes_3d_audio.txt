@@ -50,12 +50,12 @@ Audio Recordings
 Documents
 	Acceptable formats: Portable Document Format (PDF)
 	Common file extensions: PDF
-     	Common MIME types: ?
+     	Common MIME types: "application/pdf"
      	Known Unacceptable formats: DOC, DOCX
      	Audubon Core Sample Values:
             "dc:type" : "Text"
-	    "dc:format" : "?"
-	    "ac:subtypeLiteral" : "?"
+	    "dc:format" : "application/pdf"
+	    "ac:subtypeLiteral" : ""
 
 
 The current policy is as follows:
