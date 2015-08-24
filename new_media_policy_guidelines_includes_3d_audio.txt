@@ -12,30 +12,30 @@ Images
 	Known Unacceptable formats: DNG, RAW, PSD, TIFF, GIF
 	Audubon Core Sample Values:
 	    "dc:type" : "StillImage"
-            "dc:format" : "model/mesh"
-	    "ac:subtypeLiteral": "3DImage"
+            "dc:format" : "image/jpeg"
+	    "ac:subtypeLiteral": "Photograph"
 
 
 Video Recordings, Movies
-      Acceptable formats: To Be Determined
-      Common file extensions: To Be Determined
-      Common MIME types: To Be Determined
-      Known Unacceptable formats: DV, HDV, GIF
+      Acceptable formats: MP4
+      Common file extensions: .mp4
+      Common MIME types: video/mp4
+      Known Unacceptable formats: GIF
       Audubon Core Sample Values:
           "dc:type" : "MovingImage"
-	  "dc:format" : ""
+	  "dc:format" : "video/mp4"
 	  "ac:subtypeLiteral" : ""
 
 
 Audio Recordings
-      Acceptable formats: To Be Determined
-      Common file extensions: To Be Determined
-      Common MIME types: To Be Determined
+      Acceptable formats: MP3
+      Common file extensions: .mp3
+      Common MIME types: audio/x-mpeg
       Known Unacceptable formats: WAV
       Audubon Core Sample Values:
           "dc:type" : "Sound"
-	  "dc:format" : ""
-	  "ac:subtypeLiteral" : ""
+	  "dc:format" : "audio/x-mpeg"
+	  "ac:subtypeLiteral" : "Recording"
 
 3D Images / Models
       Acceptable formats: StereoLithograph (STL, binary), Polygon File Format (PLY, binary)
@@ -55,7 +55,7 @@ Documents
      	Audubon Core Sample Values:
             "dc:type" : "Text"
 	    "dc:format" : "application/pdf"
-	    "ac:subtypeLiteral" : ""
+	    "ac:subtypeLiteral" : "ScannedText"
 
 
 The current policy is as follows:
