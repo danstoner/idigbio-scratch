@@ -13,8 +13,6 @@ Images
 	Audubon Core Sample Values:
 	    "dc:type" : "StillImage"
             "dc:format" : "image/jpeg"
-	    "ac:subtypeLiteral": "Photograph"
-
 
 Video Recordings, Movies
       Acceptable formats: MP4
@@ -24,8 +22,6 @@ Video Recordings, Movies
       Audubon Core Sample Values:
           "dc:type" : "MovingImage"
 	  "dc:format" : "video/mp4"
-	  "ac:subtypeLiteral" : ""
-
 
 Audio Recordings
       Acceptable formats: MP3
@@ -35,7 +31,6 @@ Audio Recordings
       Audubon Core Sample Values:
           "dc:type" : "Sound"
 	  "dc:format" : "audio/x-mpeg"
-	  "ac:subtypeLiteral" : "Recording"
 
 3D Images / Models
       Acceptable formats: StereoLithograph (STL, binary), Polygon File Format (PLY, binary)
@@ -45,7 +40,6 @@ Audio Recordings
       Audubon Core Sample Values:
             "dc:type" : "InteractiveResource"
 	    "dc:format" : "model/mesh"
-	    "ac:subtypeLiteral" : "3DImage"
 
 Documents
 	Acceptable formats: Portable Document Format (PDF)
@@ -55,20 +49,16 @@ Documents
      	Audubon Core Sample Values:
             "dc:type" : "Text"
 	    "dc:format" : "application/pdf"
-	    "ac:subtypeLiteral" : "ScannedText"
 
 
 The current policy is as follows:
 
-Compression: All media submitted must be internally compressed, and that compression should attempt to maximize compression without sacrificing image quality.
+* Compression: All media submitted must be internally compressed, and that compression should attempt to maximize compression without sacrificing media quality. For most media types, a lossy compression algorithm would be employed to achieve this balance. For 3D models, reducing the object complexity or number of polygons (by smoothing or optimizing mesh quality) can help achieve the same goal.
+
+* Unacceptable media formats: Proprietary or formats that are not readable with widely available free or open-source software and libraries. This includes but is not limited to: DNG, RAW, PSD, TIFF, FLAC, GIF, FLV, H.264, AutoCAD, SolidWorks, Microsoft DOCX.
 
 
-The current policy is as follows:
-
-* Compression: All media submitted must be internally compressed, and that compression should attempt to maximize compression without sacrificing image quality.
-
-* Unacceptable image formats: DNG, RAW, PSD, TIFF, and proprietary formats that are not readable with widely available free or open-source software.
-
+Lossless?
 * Recommended image formats: The following formats are recommended: JPEG/JPEG2000 with fully preserved Metadata (EXIF and others). We prefer images generated with lossless compression at the camera’s native resolution, or very high quality lossy compression if the workflow doesn’t permit lossless (see recommendations below).  There may be other formats that iDigBio will accept besides the types mentioned above.
 
 * Primary storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. iDigBio is not currently funded by NSF to be primary storage for specimen images. iDigBio is not a file server for collection media.
