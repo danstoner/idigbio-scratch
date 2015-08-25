@@ -15,22 +15,22 @@ Images
             "dc:format" : "image/jpeg"
 
 Video Recordings, Movies
-      Acceptable formats: MP4
+      Acceptable formats: MP4 (H.264 encoding)
       Common file extensions: .mp4
       Common MIME types: video/mp4
-      Known Unacceptable formats: GIF
+      Known Unacceptable formats: GIF, DIVX
       Audubon Core Sample Values:
           "dc:type" : "MovingImage"
 	  "dc:format" : "video/mp4"
 
 Audio Recordings
-      Acceptable formats: MP3
-      Common file extensions: .mp3
-      Common MIME types: audio/x-mpeg
+      Acceptable formats: MP3 (MPEG-1 or MPEG-2 audio), MP4 (AAC audio)
+      Common file extensions: .mp3, .mp4
+      Common MIME types: audio/mpeg, audio/MPA, audio/mp4
       Known Unacceptable formats: WAV
       Audubon Core Sample Values:
           "dc:type" : "Sound"
-	  "dc:format" : "audio/x-mpeg"
+	  "dc:format" : "audio/mpeg"
 
 3D Images / Models
       Acceptable formats: StereoLithograph (STL, binary), Polygon File Format (PLY, binary)
@@ -55,10 +55,10 @@ The current policy is as follows:
 
 * Compression: All media submitted must be internally compressed, and that compression should attempt to maximize compression without sacrificing media quality. For most media types, a lossy compression algorithm would be employed to achieve this balance. For 3D models, reducing the object complexity or number of polygons (by smoothing or optimizing mesh quality) can help achieve the same goal.
 
-* Unacceptable media formats: Proprietary or formats that are not readable with widely available free or open-source software and libraries. This includes but is not limited to: DNG, RAW, PSD, TIFF, FLAC, GIF, FLV, H.264, AutoCAD, SolidWorks, Microsoft DOCX.
+* Unacceptable media formats: Proprietary or formats that are not readable with widely available free or open-source software and libraries. This includes but is not limited to: DNG, RAW, PSD, TIFF, FLAC, GIF, FLV, SWF, AutoCAD, SolidWorks, Microsoft DOCX.
 
 
-Lossless?
+Lossless?  Has to do with source of images and inevitably making better lower quality derivatives.
 * Recommended image formats: The following formats are recommended: JPEG/JPEG2000 with fully preserved Metadata (EXIF and others). We prefer images generated with lossless compression at the camera’s native resolution, or very high quality lossy compression if the workflow doesn’t permit lossless (see recommendations below).  There may be other formats that iDigBio will accept besides the types mentioned above.
 
 * Primary storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. iDigBio is not currently funded by NSF to be primary storage for specimen images. iDigBio is not a file server for collection media.
@@ -164,3 +164,5 @@ Adobe Digital Negative (DNG) Specification
 DNG  http://www.dpbestflow.org/DNG
 Audubon Core http://terms.tdwg.org/wiki/Audubon_Core_Term_List
 MIME Types in the IANA registry (http://www.iana.org).
+
+=============================
