@@ -1,9 +1,14 @@
 TO DO:
 1. name of policy should match description in first paragraph
-2. add link to external Digitization Resources (that should not be in this policy document since they are not abotu Distribution / sharing
+2. add link to external Digitization Resources (rather than bundling them into this policy document). Distribution / Sharing policy does not have room to include Digitization, Archiving, etc. advice for all of these different types of media.
 3. iDigBio is not an image archive and does not provide archival storage. Institutions should be archiving images in accorance with their institutional policies.
-4. Anything on Licensing?
-5. complete the acceptable formats, mime types, etc. section
+4. Did we want to include anything on Licensing in this policy?
+5. complete the acceptable formats, mime types, etc. section by replacing **** TBD ****
+6. rework "Fit for Display" section
+7. Include link to not-yet-existent document about proper use / sample distribution via Audubon Core?
+8. Do we know if the community already has piles of Unsupported Types that iDigBio should reconsider supporting?
+9. ??
+
 
 
 iDigBio Media File Format Requirements and Recommendations
@@ -16,7 +21,7 @@ Below are common media types, their extensions, MIME types, unacceptable formats
 Images
 	Acceptable formats: JPEG, JPEG 2000
 	Common file extensions: .jpg, .jpeg, .jp2
-	Common MIME types: To Be Determined
+	Common MIME types: **** TBD ****
 	Known Unacceptable formats: DNG, RAW, PSD, TIFF, GIF
 	Audubon Core Sample Values:
 	    "dc:type" : "StillImage"
@@ -26,7 +31,7 @@ Video Recordings, Movies
       Acceptable formats: MP4 (H.264 encoding)
       Common file extensions: .mp4
       Common MIME types: video/mp4
-      Known Unacceptable formats: GIF, DIVX
+      Known Unacceptable formats: GIF, DIVX, Adobe Flash (F4V, FLV), Quicktime
       Audubon Core Sample Values:
           "dc:type" : "MovingImage"
 	  "dc:format" : "video/mp4"
@@ -44,7 +49,7 @@ Audio Recordings
       Acceptable formats: StereoLithograph (STL, binary), Polygon File Format (PLY, binary)
       Common file extensions: STL, PLY
       Common MIME types: model/mesh
-      Known Unacceptable formats: To Be Determined
+      Known Unacceptable formats: **** TBD ****
       Audubon Core Sample Values:
             "dc:type" : "InteractiveResource"
 	    "dc:format" : "model/mesh"
@@ -75,8 +80,21 @@ Lossless?  Has to do with source of images and inevitably making better lower qu
 
 
 
+Industry References
 
-original copy below this line....
+Universal Photographic Digital Imaging Guidelines
+The AIC Guide to Digital Photography and Conservation Documentation
+American Institute for Conservation of Historic and Artistic Works
+OpenRAW.org
+Adobe Digital Negative (DNG) Specification
+DNG  http://www.dpbestflow.org/DNG
+Audubon Core http://terms.tdwg.org/wiki/Audubon_Core_Term_List
+Media types (formerly MIME Types) in the IANA registry (http://www.iana.org)
+
+
+
+
+Original .docx text copy below this line....
 =============================================
 
 Unacceptable formats: DNG, RAW, PSD, TIFF, and proprietary formats that are not readable with widely available free or open-source software.
