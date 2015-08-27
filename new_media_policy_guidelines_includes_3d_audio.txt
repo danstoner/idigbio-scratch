@@ -19,18 +19,18 @@ Below are common media types, their extensions, MIME types, unacceptable formats
 
 
 Images
-	Acceptable formats: JPEG, JPEG 2000
-	Common file extensions: .jpg, .jpeg, .jp2
-	Common MIME types: **** TBD ****
+	Acceptable formats: JPEG, JPEG 2000, PNG
+	Common file extensions: .jpg, .jpeg, .jp2, .png
+	Common MIME types: image/jpeg, image/jp2, image/png
 	Known Unacceptable formats: DNG, RAW, PSD, TIFF, GIF
 	Audubon Core Sample Values:
 	    "dc:type" : "StillImage"
             "dc:format" : "image/jpeg"
 
 Video Recordings, Movies
-      Acceptable formats: MP4 (H.264 encoding)
-      Common file extensions: .mp4
-      Common MIME types: video/mp4
+      Acceptable formats: MP4 (H.264 encoding), MPEG
+      Common file extensions: .mp4, .mpeg
+      Common MIME types: video/mp4, video/mpeg
       Known Unacceptable formats: GIF, DIVX, Adobe Flash (F4V, FLV), Quicktime
       Audubon Core Sample Values:
           "dc:type" : "MovingImage"
