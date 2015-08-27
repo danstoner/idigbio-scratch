@@ -79,6 +79,13 @@ Lossless?  Has to do with source of images and inevitably making better lower qu
 * Archival storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. Archival storage includes the propertyof long-term media preservation. iDigBio is not currently funded by NSF to provide archival storage. iDigBio is not a data backup system for collection media.
 
 
+Glossary / Appendix
+
+*** This is changing as more browsers add native support, HTML5 media elements, etc. Also, browser plugins are  ***
+*** available for almost every media type these days (such as TIFF).                                            ***
+*** - Dan
+“Fit for Display” - This is a term that relates to suitabiliy of items to be shared on the Internet. This takes into account native web browser support to view/render the content as well as the capability to load the content over modest Internet connections. Specialized proprietary media formats and archival quality digitization outputs are not Fit for Display since these media would not be readily consumable. iDigBio reads and generates derivatives of media that are Fit for Display only.
+
 
 Industry References
 
@@ -176,7 +183,6 @@ Lossless compression is preferred.
 When lossless compression is not an option, lossy compression at the lowest level is preferred.
 
 
-“Fit for Display” - This is a technical term that relates to file types and other inline text, encoding or attachments, that are not HTML and that are supported natively, or with helper applications, by web browsers. For instance, most browsers have native support for PDF, JPG, and GIF. This allows a browser to render the content of these files types for a user to view.  All other types of web page content, like MP3, require a helper, either built-in or installed. In the preferences for a browser there are list of media types (or MIME types) paired with applications for ‘helping’ the browser display the content of that file reference. A helper application, sometimes called a plug-in, is software that knows how to render/display the content. Recall that HTML is the native language for web browsers.  Other media types, like TIFF, that require an application other than the browser or plug-in to view their content, fall outside the definition of “Fit for Display”.
 
 
 Other Acceptable Media Formats
