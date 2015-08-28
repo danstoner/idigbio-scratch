@@ -5,8 +5,8 @@ TO DO:
 4. Did we want to include anything on Licensing in this policy?
 5. complete the acceptable formats, mime types, etc. section by replacing **** TBD ****
 6. rework "Fit for Display" section
-7. Include link to not-yet-existent document about proper use / sample distribution via Audubon Core?
-8. Do we know if the community already has piles of Unsupported Types that iDigBio should reconsider supporting?
+7. Include link to not-yet-existent document about proper use / sample distribution via Audubon Core? Or include section in this document?
+8. Do we know if the community already has piles of Unsupported Types that iDigBio should reconsider supporting or adding to future plans?
 9. ??
 
 
