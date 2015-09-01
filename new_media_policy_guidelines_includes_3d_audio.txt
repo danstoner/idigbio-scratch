@@ -104,9 +104,14 @@ Audubon Core http://terms.tdwg.org/wiki/Audubon_Core_Term_List
 Media types (formerly MIME Types) in the IANA registry (http://www.iana.org)
 
 
+=============================================
+=============================================
+
+Current public policy is:
+https://www.idigbio.org/sites/default/files/internal-docs/idigbio-standards/Image_File_Format_Recommendations_and_Standards_20141121.pdf
 
 
-Original .docx text copy below this line....
+The .docx text (with Joanna's additions) below this line....
 =============================================
 
 Unacceptable formats: DNG, RAW, PSD, TIFF, and proprietary formats that are not readable with widely available free or open-source software.
