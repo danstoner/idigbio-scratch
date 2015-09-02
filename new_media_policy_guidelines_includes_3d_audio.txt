@@ -2,7 +2,7 @@ TO DO:
 1. name of policy should match description in first paragraph
 2. add link to external Digitization Resources (rather than bundling them into this policy document). Distribution / Sharing policy does not have room to include Digitization, Archiving, etc. advice for all of these different types of media.
 3. iDigBio is not an image archive and does not provide archival storage. Institutions should be archiving images in accorance with their institutional policies.
-4. Did we want to include anything on Licensing in this policy?
+4. Did we want to include anything on Licensing in this policy?  (pointer to Intellectual Property document)
 5. complete the acceptable formats, mime types, etc. section by replacing **** TBD ****
 6. rework "Fit for Display" section
 7. Include link to not-yet-existent document about proper use / sample distribution via Audubon Core? Or include section in this document?
@@ -84,6 +84,42 @@ Lossless?  Has to do with source of images and inevitably making better lower qu
 * Archival storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. Archival storage includes the propertyof long-term media preservation. iDigBio is not currently funded by NSF to provide archival storage. iDigBio is not a data backup system for collection media.
 
 
+Image Distribution Recommendations
+Images uploaded to aggregators and portals should be ‘fit for display’.
+Lower quality images should be distributed to aggregators and portals only when there is no higher quality image available.
+When a low quality image is uploaded or distributed, the metadata for that image should indicate that it is the only image available for that specimen. (is this really necessary??)
+JPEG format at native resolution and minimal compression is preferred for distribution via the internet.
+Lossless compression is preferred.
+When lossless compression is not an option, lossy compression at the lowest level is preferred.
+
+
+
+
+Other Resources
+
+
+Digitization Resources
+
+** blurb goes here **
+
+https://www.idigbio.org/wiki/index.php/Digitization_Resources
+
+
+Media Archiving
+
+** blurb goes here **
+
+
+
+Intellectual Property and Data Licensing
+
+iDigBio has established an Intellectual Property Policy related to the presentation of content provided by collections and institutions.
+
+https://www.idigbio.org/content/idigbio-intellectual-property-policy
+
+
+
+
 Glossary / Appendix
 
 *** This is changing as more browsers add native support, HTML5 media elements, etc. Also, browser plugins are  ***
@@ -111,16 +147,16 @@ Current public policy is:
 https://www.idigbio.org/sites/default/files/internal-docs/idigbio-standards/Image_File_Format_Recommendations_and_Standards_20141121.pdf
 
 
-The .docx text (with Joanna's additions) below this line....
+text to be merged or relocated, from the .docx text (with Joanna's additions) below this line....
 =============================================
 
 Unacceptable formats: DNG, RAW, PSD, TIFF, and proprietary formats that are not readable with widely available free or open-source software.
 Recommended formats: While iDigBio will accept all formats that are not listed above as unacceptable, the following formats are recommended: JPEG/JPEG2000 with fully preserved Metadata (EXIF and others). We prefer images generated with lossless compression at the camera’s native resolution, or very high quality lossy compression if the workflow doesn’t permit lossless. (see recommendations below)
 Archival storage: iDigBio sees the importance of archival storage although currently does not provide any, and hosting of images in iDigBio should not be seen as such. As the current iDigBio NSF agreement does not fund archival storage, within current resource limitations, iDigBio may be able to facilitate storage of images on a case-by-case basis.
 
-Recommendations for the Acquisition, Processing, Storage, and Distribution of Digital Media
 
-iDigBio is pleased to offer the following recommendations for capturing, processing, archiving, and distributing digital images based on work of the Developing Robust Object-to-Image-to-Data Workflows Working Group (DROID), a review of industry standards*, input from the broader collections community, and feedback from iDigBio staff. These recommendations are divided into four clusters: image acquisition, image archiving, image derivatives, and image distribution. 
+
+
 iDigBio accepts these media types, with accompanying Audubon Core metadata:
 Media Type
 File Extension
@@ -159,15 +195,6 @@ video
 swf
 
 
-Image Acquisition Recommendations 
-Camera RAW is the preferred format for recording camera images.
-Scanner images should be recorded in 24 bit or higher at 300-600 ppi in TIFF format.
-Record at the highest native resolution available for the imaging device.
-Adjust white balance settings to match the light source.
-A visible color checker and scale are recommended, as appropriate.
-Adobe RGB or sRGB are the preferred color spaces and should be stated in the metadata.
-CMYK color space should be avoided.
-Image file names should be restricted to alpha numeric characters, without spaces or other special characters, underscore (_) and hyphen (–) excepted.
 
 Image Archiving Recommendations
 Archiving images is strongly recommended and is viewed as an institutional responsibility, governed by institutional policy.
@@ -177,21 +204,13 @@ Images captured in proprietary camera RAW format (e.g., CR2, NEF, PEF, etc.) sho
 Conversion to DNG can be accomplished via Adobe DNG Converter, available free from Adobe.com, or via Adobe Photoshop or Adobe Photoshop Lightroom.
 Uncompressed or lossless compressed, unmodified TIFF at 24 bits or higher is an alternative archival format.
 
+
 Image Derivative Recommendations
 JPEG and JPEG 2000 images should be saved at their native dimensions (spatial resolution).
 Manually increasing resolution (e.g., alterations to image size or ppi or dpi settings) beyond that recorded by the camera may insert derived data or unwanted visual artifacts into an image file and is not recommended.
 EXIF, IPTC, and other image metadata (including JPEG 2000 XML data), including that added at time of processing, should be preserved in perpetuity and distributed with all derivative and distributed copies of images.
 Image processing should be carried out only on DNG or other RAW files to prevent accumulated data losses and potential image degradation by repeated processing of JPEG and TIFF image files.
 Excessive image manipulation or compositing, including sharpening, enhancing color saturation or balance, and adjusting contrast should be avoided. 
-
-Image Distribution Recommendations
-Images uploaded to aggregators and portals should be ‘fit for display’.
-Lower quality images should be distributed to aggregators and portals only when there is no higher quality image available.
-When a low quality image is uploaded or distributed, the metadata for that image should indicate that it is the only image available for that specimen. (is this really necessary??)
-JPEG format at native resolution and minimal compression is preferred for distribution via the internet.
-Lossless compression is preferred.
-When lossless compression is not an option, lossy compression at the lowest level is preferred.
-
 
 
 
