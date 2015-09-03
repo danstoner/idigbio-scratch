@@ -20,68 +20,6 @@ This requirements will evolve over time as technologies change and with input fr
 
 *** this next section will be moved to the iDigBio Wiki ***
 
-Below are common media types, their extensions, MIME types, unacceptable formats, and sample values for providing media metadata via Audubon Core (AC).
-
-Images
-	Acceptable formats: JPEG, JPEG 2000, PNG
-	Common file extensions: .jpg, .jpeg, .jp2, .png
-	Common MIME types: image/jpeg, image/jp2, image/png
-	Known Unacceptable formats: DNG, RAW, PSD, TIFF, GIF
-	Audubon Core Sample Values:
-	    "dc:type" : "StillImage"
-            "dc:format" : "image/jpeg"
-	iDigBio short name: "images"
-	placeholder default icon for media of this type: **** TBD ****
-	iDigBio additional derivatives: thumbnail, webview, fullsize
-
-
-Video Recordings, Movies
-      Acceptable formats: MP4 (H.264 encoding), MPEG
-      Common file extensions: .mp4, .mpeg
-      Common MIME types: video/mp4, video/mpeg
-      Known Unacceptable formats: GIF, DIVX, Adobe Flash (F4V, FLV), Quicktime
-      Audubon Core Sample Values:
-          "dc:type" : "MovingImage"
-	  "dc:format" : "video/mp4"
-      iDigBio short name: "videos"
-      placeholder default icon for media of this type: **** TBD ****
-      iDigBio additional derivatives: **** TBD ****
-
-Audio Recordings
-      Acceptable formats: MP3 (MPEG-1 or MPEG-2 audio), MP4 (AAC audio)
-      Common file extensions: .mp3, .mp4
-      Common MIME types: audio/mpeg, audio/MPA, audio/mp4
-      Known Unacceptable formats: WAV
-      Audubon Core Sample Values:
-          "dc:type" : "Sound"
-	  "dc:format" : "audio/mpeg"
-      iDigBio short name: "sounds"
-      placeholder default icon for media of this type: **** TBD ****
-      iDigBio additional derivatives: **** TBD ****
-
-3D Images / Models
-      Acceptable formats: StereoLithograph (STL, binary), Polygon File Format (PLY, binary)
-      Common file extensions: STL, PLY
-      Common MIME types: model/mesh
-      Known Unacceptable formats: **** TBD ****
-      Audubon Core Sample Values:
-            "dc:type" : "InteractiveResource"
-	    "dc:format" : "model/mesh"
-      iDigBio short name: "models"
-      placeholder default icon for media of this type: **** TBD ****
-      iDigBio additional derivatives: **** TBD ****
-
-Documents
-	Acceptable formats: Portable Document Format (PDF)
-	Common file extensions: PDF
-     	Common MIME types: "application/pdf"
-     	Known Unacceptable formats: DOC, DOCX
-     	Audubon Core Sample Values:
-            "dc:type" : "Text"
-	    "dc:format" : "application/pdf"
-	iDigBio short name: "documents"
-        placeholder default icon for media of this type: **** TBD ****
-	iDigBio additional derivatives: **** TBD ****
 
 
 
