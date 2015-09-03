@@ -18,6 +18,8 @@ iDigBio’s mission requires that it be able to aggregate and distribute digital
 This requirements will evolve over time as technologies change and with input from the scientific community. If you are a data provider with media types that are not listed as acceptable formats, please feel free to contact iDigBio at data@idigbio.org.
 
 
+*** this next section will be moved to the iDigBio Wiki ***
+
 Below are common media types, their extensions, MIME types, unacceptable formats, and sample values for providing media metadata via Audubon Core (AC).
 
 Images
@@ -28,6 +30,10 @@ Images
 	Audubon Core Sample Values:
 	    "dc:type" : "StillImage"
             "dc:format" : "image/jpeg"
+	iDigBio short name: "images"
+	placeholder default icon for media of this type: **** TBD ****
+	iDigBio additional derivatives: thumbnail, webview, fullsize
+
 
 Video Recordings, Movies
       Acceptable formats: MP4 (H.264 encoding), MPEG
@@ -37,6 +43,9 @@ Video Recordings, Movies
       Audubon Core Sample Values:
           "dc:type" : "MovingImage"
 	  "dc:format" : "video/mp4"
+      iDigBio short name: "videos"
+      placeholder default icon for media of this type: **** TBD ****
+      iDigBio additional derivatives: **** TBD ****
 
 Audio Recordings
       Acceptable formats: MP3 (MPEG-1 or MPEG-2 audio), MP4 (AAC audio)
@@ -46,6 +55,9 @@ Audio Recordings
       Audubon Core Sample Values:
           "dc:type" : "Sound"
 	  "dc:format" : "audio/mpeg"
+      iDigBio short name: "sounds"
+      placeholder default icon for media of this type: **** TBD ****
+      iDigBio additional derivatives: **** TBD ****
 
 3D Images / Models
       Acceptable formats: StereoLithograph (STL, binary), Polygon File Format (PLY, binary)
@@ -55,6 +67,9 @@ Audio Recordings
       Audubon Core Sample Values:
             "dc:type" : "InteractiveResource"
 	    "dc:format" : "model/mesh"
+      iDigBio short name: "models"
+      placeholder default icon for media of this type: **** TBD ****
+      iDigBio additional derivatives: **** TBD ****
 
 Documents
 	Acceptable formats: Portable Document Format (PDF)
@@ -64,7 +79,9 @@ Documents
      	Audubon Core Sample Values:
             "dc:type" : "Text"
 	    "dc:format" : "application/pdf"
-
+	iDigBio short name: "documents"
+        placeholder default icon for media of this type: **** TBD ****
+	iDigBio additional derivatives: **** TBD ****
 
 
 
