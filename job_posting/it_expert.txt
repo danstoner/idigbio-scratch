@@ -1,0 +1,74 @@
+Subject: Job Opportunity for ACIS/iDigBio - Front-end Developer
+
+
+*Apologies if you are seeing this more than once.  Please share in your tech circles if you are aware of people who might be interested.*
+
+
+OFFICIAL JOB POST:
+
+  http://explore.jobs.ufl.edu/cw/en-us/job/493532/it-expert
+
+
+The official information is at the above jobs link but I'm including more info below, from my own perspective, to hopefully answer most of the questions people might have about the position.
+
+
+OVERVIEW:
+
+Job Opportunity for a "front-end developer" (IT EXPERT) in the Advanced Computing and Information Systems (ACIS) Laboratory at the University of Florida to work on iDigBio, the National Resource for Advancing Digitization of Biodiversity Collections funded by the National Science Foundation.  Integrated Digitized Biocollections (iDigBio) enables data of millions of biological specimens to be used by the research community, government agencies, students, educators, and the general public.
+
+Within the Univeristy of Florida, ACIS is housed under the Deparment of Electrical & Computer Engineering which is part of the College of Engineering. The ACIS Lab conducts fundamental and applied research on all aspects of systems that integrate computing and information processing. Current ACIS research falls under the broad categories of Cloud Computing, Cyberinfrastructure for e-science and e-health, Autonomic Computing, Computer Architecture, and Peer-to-peer Computing. 
+
+ACIS is responsble for implementing the Cyberinfrastructure components of iDigBio.
+
+More info:
+  ACIS -   https://www.acis.ufl.edu
+  iDigBio -   https://www.idigbio.org/
+
+
+
+IDIGBIO TECH AND ENVIRONMENT:
+
+ACIS implements the servers, storage, databases, and software for the National Resource. We have lots of Linux and Python running around on the backend but generally try to choose the best tool for the job (e.g. Elasticsearch happens to run in Java). We dabble in DevOps. I consider us to be an Open Source shop. I get to use Linux on my work computers.
+
+Due to the size and complexity of our data (currently 170+ million rows in our biggest data table, 600+ individual datasets, 12+ million media objects), we run into challenges that smaller projects might blissfully ignore. This also gives opportunities to experiment with hot new tech in a meaningful way, as demonstrated by the following blog post on Apache Spark written by some members of our team:
+
+  https://www.idigbio.org/content/exploring-unique-values-idigbio-using-apache-spark
+
+It is my expectation that this position will continue the javascript web development of the iDigBio specimen portal but in the future could easily branch out into other areas of "providing software and tools to help biologists and researchers do Science with specimen data", participating in existing related open source projects and scientific communties, or other ACIS projects.
+
+The iDigBio specimen portal consumes the iDigBio API (we believe in dogfooding our API). The architecture includes the following technologies:
+
+  Node.js (Express, React, Leaflet, ...)
+  PostgreSQL (including the "new" jsonb data type)
+  Elasticsearch ("You Know, for Search")
+  Ceph (S3-compatible API)
+
+
+A view of the iDigBio specimen portal (showing the results of a search for red algae specimens):
+
+  https://www.idigbio.org/portal/search?rq={"phylum":"rhodophyta"}&view=images
+
+A view of a particular fly specimen's images:
+
+  https://www.idigbio.org/portal/mediarecords/60de9af5-6b55-4684-b9ed-d5db4a2c6574
+
+Some of the potential upcoming web portal features (what this position might be working on) include adding new kinds of data visualization (beyond mapping) and presentation of media types other than images (audio recordings, 3D models, and other media types).
+
+We open source as much of our project code as possible. For example, the specimen portal code repository is on github:
+
+  https://github.com/iDigBio/idb-portal
+
+
+
+TO APPLY:
+
+Applications must be submitted through the University of Florida jobs website listed at the beginning of this message.
+
+It appears that the initial posting duration is rather short (closes 22 Sep 2015).
+
+
+Regards,
+
+Dan Stoner
+iDigBio / ACIS Laboratory
+University of Florida
