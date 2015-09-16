@@ -9,7 +9,7 @@ OFFICIAL JOB POST:
   http://explore.jobs.ufl.edu/cw/en-us/job/493532/it-expert
 
 
-The official information is at the above jobs link but I'm including more info below, from my own perspective, to hopefully answer most of the questions people might have about the position.
+The official information is at the above jobs link but I'm including more info below (from my own perspective) to hopefully answer most of the questions people might have about the position.
 
 
 OVERVIEW:
@@ -34,9 +34,9 @@ Due to the size and complexity of our data (currently 170+ million rows in our b
 
   https://www.idigbio.org/content/exploring-unique-values-idigbio-using-apache-spark
 
-It is my expectation that this position will continue the javascript web development of the iDigBio specimen portal but in the future could easily branch out into other areas of "providing software and tools to help biologists and researchers do Science with specimen data", participating in existing related open source projects and scientific communties, or other ACIS projects.
+It is my expectation that this position will continue the javascript web development of the iDigBio Specimen Portal but in the future could easily branch out into other areas of "providing software and tools to help biologists and researchers do Science with specimen data", participating in existing related open source projects and scientific communities, or other ACIS projects.
 
-The iDigBio specimen portal consumes the iDigBio API (we believe in dogfooding our API). The architecture includes the following technologies:
+The iDigBio Specimen Portal consumes the iDigBio API (we believe in dogfooding our API). The architecture includes the following technologies:
 
   Node.js (Express, React, Leaflet, ...)
   PostgreSQL (including the "new" jsonb data type)
@@ -44,15 +44,15 @@ The iDigBio specimen portal consumes the iDigBio API (we believe in dogfooding o
   Ceph (S3-compatible API)
 
 
-A view of the iDigBio specimen portal (showing the results of a search for red algae specimens):
+A view of the iDigBio Specimen Portal (showing the results of a search for red algae specimens):
 
   https://www.idigbio.org/portal/search?rq={"phylum":"rhodophyta"}&view=images
 
 A view of a particular fly specimen's images:
 
-  https://www.idigbio.org/portal/mediarecords/60de9af5-6b55-4684-b9ed-d5db4a2c6574
+  https://www.idigbio.org/portal/mediarecords/33680c02-68d0-4f2e-90e8-e73d40c043dc
 
-Some of the potential upcoming web portal features (what this position might be working on) include adding new kinds of data visualization (beyond mapping) and presentation of media types other than images (audio recordings, 3D models, and other media types).
+Some of the potential upcoming new portal features (what this position might be working on) include adding new kinds of data visualization (beyond mapping) and presentation of media types other than images (audio recordings, 3D models, and other media types).
 
 We open source as much of our project code as possible. For example, the specimen portal code repository is on github:
 
@@ -62,7 +62,7 @@ We open source as much of our project code as possible. For example, the specime
 
 TO APPLY:
 
-Applications must be submitted through the University of Florida jobs website listed at the beginning of this message.
+Applications *MUST* be submitted through the University of Florida jobs website listed at the beginning of this message.
 
 It appears that the initial posting duration is rather short (closes 22 Sep 2015).
 
