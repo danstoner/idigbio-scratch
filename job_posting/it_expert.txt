@@ -21,7 +21,7 @@ Within the Univeristy of Florida, ACIS is housed under the Deparment of Electric
 ACIS is responsble for implementing the Cyberinfrastructure components of iDigBio.
 
 More info:
-  ACIS -   https://www.acis.ufl.edu
+  ACIS -   https://www.acis.ufl.edu/
   iDigBio -   https://www.idigbio.org/
 
 
