@@ -71,7 +71,7 @@ def get_media(tup, cache_bad=False):
     url_path = "bad_media/"+url.replace("/","^^")
 
     retries = 3 # number of times
-    retry_sleep = 15 # seconds
+    retry_sleep = 8 # seconds
     media_status = 1000
 
     # Sleep because tropicos is severely rate-limited
@@ -116,7 +116,8 @@ def get_media(tup, cache_bad=False):
             raise e
         except:
             retries -= 1
-            if retries > 0:
+            if retries > 0 and media_status != 503:
+                print datetime.datetime.now(), "Retrying. Last status: ", media_status, url
                 time.sleep(retry_sleep)                
                 continue
             
