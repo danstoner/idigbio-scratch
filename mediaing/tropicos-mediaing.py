@@ -118,7 +118,7 @@ def get_media(tup, cache_bad=False):
             retries -= 1
             if retries > 0 and media_status != 503:
                 print datetime.datetime.now(), "Retrying. Last status: ", media_status, url
-                if media_status = 504:
+                if media_status == 504:
                     time.sleep(retry_sleep)
                 else:
                     time.sleep(abs(retry_sleep - 5))
