@@ -71,7 +71,7 @@ def get_media(tup, cache_bad=False):
     url_path = "bad_media/"+url.replace("/","^^")
 
     retries = 4 # number of times
-    retry_sleep = 5 # seconds
+    retry_sleep = 15 # seconds
     media_status = 1000
 
     # Sleep because tropicos is severely rate-limited
