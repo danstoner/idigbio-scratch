@@ -270,7 +270,7 @@ def get_media_generator():
             	SELECT media.url, media_objects.etag FROM media LEFT JOIN media_objects ON media.url = media_objects.url WHERE 
 			type IS NOT NULL AND 
 			(last_status IS NULL or last_status >= 400) AND 
-			media.url like 'http://www.tropicos.org/%' and last_check < now()-'30 days'::interval
+			media.url like 'http://www.tropicos.org/%' and last_check < now()-'10 days'::interval
         	) 
 		AS a WHERE a.etag IS NULL GROUP BY substring(url from 'https?://[^/]*/')
     	)		 
@@ -280,7 +280,7 @@ def get_media_generator():
         subs = sub_row[0]
         local_cur.execute("""SELECT url,type,mime FROM (
             SELECT media.url,type,mime,etag FROM media LEFT JOIN media_objects ON media.url = media_objects.url
-            WHERE media.url LIKE 'http://www.tropicos.org/%' AND type IS NOT NULL AND (last_status IS NULL OR last_status >= 400) and media.last_check < now()-'30 days'::interval
+            WHERE media.url LIKE 'http://www.tropicos.org/%' AND type IS NOT NULL AND (last_status IS NULL OR last_status >= 400) and media.last_check < now()-'10 days'::interval
         ) AS a WHERE a.etag IS NULL""")
         url_rows = local_cur.fetchall()
         for url_row in url_rows:
