@@ -120,6 +120,8 @@ def get_media(tup, cache_bad=False):
                 print datetime.datetime.now(), "Retrying. Last status: ", media_status, url
                 if media_status == 504:
                     time.sleep(retry_sleep)
+                elif media_status == 404:
+                    time.sleep(3)
                 else:
                     time.sleep(retry_sleep)
                 continue
