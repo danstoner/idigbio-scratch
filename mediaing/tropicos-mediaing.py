@@ -287,7 +287,7 @@ def get_media_generator():
             yield tuple(url_row[0:3])
 
 def get_media_consumer():
-    p = Pool(1)
+    p = Pool(2)
     count = 0
     t = 0
     f = 0
