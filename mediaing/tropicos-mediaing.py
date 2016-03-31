@@ -115,16 +115,15 @@ def get_media(tup, cache_bad=False):
         except KeyboardInterrupt as e:
             raise e
         except:
-            retries -= 1
-            if retries > 0 and media_status != 503:
-                print datetime.datetime.now(), "Retrying. Last status: ", media_status, url
-                if media_status == 504:
-                    time.sleep(retry_sleep)
-                elif media_status == 404:
-                    time.sleep(5)
-                else:
-                    time.sleep(retry_sleep)
-                continue
+            if media_status != 404:
+                retries -= 1
+                if retries > 0 and media_status != 503:
+                    print datetime.datetime.now(), "Retrying. Last status: ", media_status, url
+                    if media_status == 504:
+                        time.sleep(retry_sleep)
+                    else:
+                        time.sleep(retry_sleep)
+                    continue
             
             local_pg.rollback()
             local_cur.execute("UPDATE media SET last_status=%s, last_check=now() WHERE url=%s", (media_status, url))
