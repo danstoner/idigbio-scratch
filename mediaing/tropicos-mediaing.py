@@ -121,7 +121,7 @@ def get_media(tup, cache_bad=False):
                 if media_status == 504:
                     time.sleep(retry_sleep)
                 elif media_status == 404:
-                    time.sleep(3)
+                    time.sleep(5)
                 else:
                     time.sleep(retry_sleep)
                 continue
