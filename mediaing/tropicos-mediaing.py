@@ -124,6 +124,9 @@ def get_media(tup, cache_bad=False):
                     else:
                         time.sleep(retry_sleep)
                     continue
+                elif media_status == 503:
+                    print datetime.datetime.now(), "(Service Unavailable) Retrying. Last status: ", media_status, url
+                    time.sleep(180)
             else:
                 time.sleep(1)
 
