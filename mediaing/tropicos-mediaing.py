@@ -124,7 +124,9 @@ def get_media(tup, cache_bad=False):
                     else:
                         time.sleep(retry_sleep)
                     continue
-            
+            else:
+                time.sleep(1)
+
             local_pg.rollback()
             local_cur.execute("UPDATE media SET last_status=%s, last_check=now() WHERE url=%s", (media_status, url))
             local_pg.commit()
