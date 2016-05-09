@@ -30,7 +30,7 @@ The ... policy is as follows:
 
 * Compression: All media submitted must be internally compressed, and that compression should attempt to maximize compression without sacrificing media quality. For most media types, a lossy compression algorithm would be employed to achieve this balance. For 3D models, reducing the object complexity or number of polygons (by smoothing or optimizing mesh quality) can help achieve the same goal.
 
-* Unacceptable media formats: Proprietary or formats that are not readable with widely available free or open-source software and libraries. This includes but is not limited to: DNG, RAW, PSD, TIFF, FLAC, GIF, FLV, SWF, AutoCAD, SolidWorks, Microsoft DOCX.
+* Unacceptable media formats: Proprietary formats and codecs or formats that are not readable with widely available free or open-source software and libraries. This includes but is not limited to: DNG, RAW, PSD, TIFF, FLAC, GIF, FLV, SWF, AutoCAD, SolidWorks, Microsoft DOCX.
 
 
 Lossless?  Has to do with source of images and inevitably making better lower quality derivatives.
@@ -111,6 +111,19 @@ text to be merged or relocated, from the .docx text (with Joanna's additions) be
 Unacceptable formats: DNG, RAW, PSD, TIFF, and proprietary formats that are not readable with widely available free or open-source software.
 Recommended formats: While iDigBio will accept all formats that are not listed above as unacceptable, the following formats are recommended: JPEG/JPEG2000 with fully preserved Metadata (EXIF and others). We prefer images generated with lossless compression at the camera’s native resolution, or very high quality lossy compression if the workflow doesn’t permit lossless. (see recommendations below)
 Archival storage: iDigBio sees the importance of archival storage although currently does not provide any, and hosting of images in iDigBio should not be seen as such. As the current iDigBio NSF agreement does not fund archival storage, within current resource limitations, iDigBio may be able to facilitate storage of images on a case-by-case basis.
+
+
+
+According to http://www.gbif.org/resource/80697 there are six mandatory terms for AC:
+
+Identifier (dcterms:identifier) 
+Type (dcterms: type)
+Title (dcterm: title)
+Metadata Language (ac:MetadataLanguage) 
+Copyright Owner (xmpRights:Owner) 
+Copyright Statement (dcterms:rights)
+
+
 
 
 
