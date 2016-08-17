@@ -115,6 +115,7 @@ Archival storage: iDigBio sees the importance of archival storage although curre
 
 
 According to http://www.gbif.org/resource/80697 there are six mandatory terms for AC:
+[is broken link. This is direct link to PDF: http://www.gbif.org/system/files_force/gbif_resource/resource-80697/gbif_poster_GB18_AudobonCore_en_lowres.pdf?download=1 and in this repo locally as gbif_poster_GB18_AudobonCore_en_lowres.pdf]
 
 Identifier (dcterms:identifier) 
 Type (dcterms: type)
