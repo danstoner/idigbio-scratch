@@ -38,7 +38,7 @@ Lossless?  Has to do with source of images and inevitably making better lower qu
 
 * Primary storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. iDigBio is not currently funded by NSF to be primary storage for specimen images. iDigBio is not a file server for collection media.
 
-* Archival storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. Archival storage includes the propertyof long-term media preservation. iDigBio is not currently funded by NSF to provide archival storage. iDigBio is not a data backup system for collection media.
+* Archival storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. Archival storage includes the propertyof long-term media preservation. iDigBio is not currently funded by NSF to provide archival storage. iDigBio is not a data backup system for collection media. Museum collections should archive digitial media in accorance with their institutional policies and data management plans.
 
 
 Image Distribution Recommendations
@@ -57,14 +57,9 @@ Other Resources
 
 Digitization Resources
 
-** blurb goes here **
+iDigBio Digitization Resources are available at:
 
 https://www.idigbio.org/wiki/index.php/Digitization_Resources
-
-
-Media Archiving
-
-iDigBio is not currently funded to provide longterm archival storage for media such as images. Collections should archive digitial media in accorance with their institutional policies and data management plans.
 
 
 
@@ -116,6 +111,10 @@ Archival storage: iDigBio sees the importance of archival storage although curre
 
 According to http://www.gbif.org/resource/80697 there are six mandatory terms for AC:
 [is broken link. This is direct link to PDF: http://www.gbif.org/system/files_force/gbif_resource/resource-80697/gbif_poster_GB18_AudobonCore_en_lowres.pdf?download=1 and in this repo locally as gbif_poster_GB18_AudobonCore_en_lowres.pdf]
+
+(see also:
+ http://www.gbif.org/resource/81251
+ https://journals.ku.edu/index.php/jbi/article/view/4117/4200
 
 Identifier (dcterms:identifier) 
 Type (dcterms: type)
