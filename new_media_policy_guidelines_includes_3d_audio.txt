@@ -36,9 +36,9 @@ The ... policy is as follows:
 Lossless?  Has to do with source of images and inevitably making better lower quality derivatives.
 * Recommended image formats: The following formats are recommended: JPEG/JPEG2000 with fully preserved Metadata (EXIF and others). We prefer images generated with lossless compression at the camera’s native resolution, or very high quality lossy compression if the workflow doesn’t permit lossless (see recommendations below).  There may be other formats that iDigBio will accept besides the types mentioned above.
 
-* Primary storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. iDigBio is not currently funded by NSF to be primary storage for specimen images. iDigBio is not a file server for collection media.
+* Primary storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. This assumes that data and media providers maintain the source media. iDigBio is not currently funded by NSF to be primary storage for specimen images. iDigBio is not a file server for collection media.
 
-* Archival storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. Archival storage includes the propertyof long-term media preservation. iDigBio is not currently funded by NSF to provide archival storage. iDigBio is not a data backup system for collection media. Museum collections should archive digitial media in accorance with their institutional policies and data management plans.
+* Archival storage: iDigBio accepts images for the purpose of aggregation, discovery, and display in the iDigBio portal and retrieved via the iDigBio API. Archival storage by definition includes the notion of long-term media preservation. iDigBio is not currently funded by NSF to provide archival storage. iDigBio is not a data backup system for collection media. Museum collections and media providers should archive digitial media in accorance with their institutional policies and data management plans.
 
 
 Image Distribution Recommendations
