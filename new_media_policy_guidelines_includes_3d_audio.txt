@@ -167,22 +167,6 @@ swf
 
 
 
-Image Archiving Recommendations
-Archiving images is strongly recommended and is viewed as an institutional responsibility, governed by institutional policy.
-Archived image files should be permanently retained in a secure, redundant environment on institutional infrastructure or commercial back-up services.
-Uncompressed DNG is the preferred archival format.
-Images captured in proprietary camera RAW format (e.g., CR2, NEF, PEF, etc.) should be converted to Digital Negative format (DNG).
-Conversion to DNG can be accomplished via Adobe DNG Converter, available free from Adobe.com, or via Adobe Photoshop or Adobe Photoshop Lightroom.
-Uncompressed or lossless compressed, unmodified TIFF at 24 bits or higher is an alternative archival format.
-
-
-Image Derivative Recommendations
-JPEG and JPEG 2000 images should be saved at their native dimensions (spatial resolution).
-Manually increasing resolution (e.g., alterations to image size or ppi or dpi settings) beyond that recorded by the camera may insert derived data or unwanted visual artifacts into an image file and is not recommended.
-EXIF, IPTC, and other image metadata (including JPEG 2000 XML data), including that added at time of processing, should be preserved in perpetuity and distributed with all derivative and distributed copies of images.
-Image processing should be carried out only on DNG or other RAW files to prevent accumulated data losses and potential image degradation by repeated processing of JPEG and TIFF image files.
-Excessive image manipulation or compositing, including sharpening, enhancing color saturation or balance, and adjusting contrast should be avoided. 
-
 
 
 Other Acceptable Media Formats
