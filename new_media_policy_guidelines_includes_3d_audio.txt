@@ -127,48 +127,6 @@ Copyright Statement (dcterms:rights)
 
 
 
-
-iDigBio accepts these media types, with accompanying Audubon Core metadata:
-Media Type
-File Extension
-Notes
-image
-jpg
-best quality, not a thumbnail, via a URL visible to public
-image
-jpg2
-also called jpg 2000
-image
-gif
-
-image
-png
-
-image
-svg
-vector graphics
-document
-pdf
-
-audio
-mp3
-
-audio
-ogg
-
-video
-flv
-
-video
-mpeg
-
-video
-swf
-
-
-
-
-
 Other Acceptable Media Formats
 The other media types that are on the acceptable list are displayed with their corresponding thumbnail icon.
 *Industry References
