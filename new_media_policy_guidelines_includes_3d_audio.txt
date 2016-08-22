@@ -81,17 +81,6 @@ Glossary / Appendix
 “Fit for Display” - This is a term that relates to suitabiliy of items to be shared on the Internet. This takes into account native web browser support to view/render the content as well as the capability to load the content over modest Internet connections. Specialized proprietary media formats and archival quality digitization outputs are not Fit for Display since these media would not be readily consumable. iDigBio reads and generates derivatives of media that are Fit for Display only.
 
 
-Industry References
-
-Universal Photographic Digital Imaging Guidelines
-The AIC Guide to Digital Photography and Conservation Documentation
-American Institute for Conservation of Historic and Artistic Works
-OpenRAW.org
-Adobe Digital Negative (DNG) Specification
-DNG  http://www.dpbestflow.org/DNG
-Audubon Core http://terms.tdwg.org/wiki/Audubon_Core_Term_List
-Media types (formerly MIME Types) in the IANA registry (http://www.iana.org)
-
 
 =============================================
 =============================================
