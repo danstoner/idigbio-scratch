@@ -7,7 +7,8 @@ x Done.  2. add link to external Digitization Resources (rather than bundling th
 
 4. Did we want to include anything on Licensing in this policy? -yes  (pointer to Intellectual Property document)
 
-5. complete the acceptable formats, mime types, etc. section by replacing. --moved to wiki
+x 5. complete the acceptable formats, mime types, etc. section by replacing. --moved to wiki
+
 6. rework "Fit for Display" section
 
 x Not sure why this was listed as item for the media policy.  7. Include link to not-yet-existent document about proper use / sample distribution via Audubon Core? Or include section in this document?
@@ -63,7 +64,13 @@ When lossless compression is not an option, lossy compression at the lowest leve
 
 
 
-Other Resources
+
+Intellectual Property and Data Licensing
+
+iDigBio has established an Intellectual Property Policy related to the presentation of content provided by collections and institutions:
+
+https://www.idigbio.org/content/idigbio-intellectual-property-policy
+
 
 
 Digitization Resources
@@ -75,11 +82,6 @@ https://www.idigbio.org/wiki/index.php/Digitization_Resources
 
 
 
-Intellectual Property and Data Licensing
-
-iDigBio has established an Intellectual Property Policy related to the presentation of content provided by collections and institutions.
-
-https://www.idigbio.org/content/idigbio-intellectual-property-policy
 
 
 
@@ -103,9 +105,11 @@ https://www.idigbio.org/sites/default/files/internal-docs/idigbio-standards/Imag
 text to be merged or relocated, from the .docx text (with Joanna's additions) below this line....
 =============================================
 
-Unacceptable formats: DNG, RAW, PSD, TIFF, and proprietary formats that are not readable with widely available free or open-source software.
+Unsupported formats: DNG, RAW, PSD, TIFF, and proprietary formats that are not readable with widely available free or open-source software.
 Recommended formats: While iDigBio will accept all formats that are not listed above as unacceptable, the following formats are recommended: JPEG/JPEG2000 with fully preserved Metadata (EXIF and others). We prefer images generated with lossless compression at the camera’s native resolution, or very high quality lossy compression if the workflow doesn’t permit lossless. (see recommendations below)
 Archival storage: iDigBio sees the importance of archival storage although currently does not provide any, and hosting of images in iDigBio should not be seen as such. As the current iDigBio NSF agreement does not fund archival storage, within current resource limitations, iDigBio may be able to facilitate storage of images on a case-by-case basis.
+
+**** lossless JPEG actually not supported in iDigBio image ingestion, so lossless contents should be removed.  lossless format is borderline mutually exclusive with our definition of "fit for display". - Dan ***
 
 
 
