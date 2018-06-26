@@ -1,0 +1,61 @@
+iDigBio Data Harvesting and Ingestion
+=====================================
+
+Data Publishing is the act of putting a dataset on the Internet for other people to use. In the context of specimen occurrence data, a dataset is a collection of specimen records or other metadata about specimens that are typically bundled into a Darwin Core Archive.
+
+See external materials for more information on Darwin Core Archives.
+
+At the time of this writing, iDigBio aggregates over 100 million specimen records from over 1500 datasets.
+
+In most cases a "dataset" is a Darwin Core Archive.  See external materials for more information.
+
+To accomplish this task, iDigBio maintains an internal list of those datasets which is a subset of all possible datasets available on the Internet.  
+
+
+
+Data Publishing Providers, or "Publishers" for short, are the servers / http locations on the Internet that provide the links to datasets.
+
+
+
+iDigBio staff decide to include a particular dataset in the iDigBio aggregated data.  In particular, datasets that are missing occurrence identifiers or where those occurrence identifiers are unsuitable in a global context are not.  iDigBio's focus is specimen-based occurrence records, so observations are also generally out-of-scope and are not selected to become part of the aggregate.
+
+
+
+
+
+RSS Feeds
+=========
+
+RSS (Really Simple Syndication) is a technology originally developed for publishing news items.  iDigBio currently supports both RSS 2.0 and Atom 1.0 but generically we tend to call them "RSS feeds".  The purpose of the feed in the data publishing workflow is to allow subscribers to become aware when new datasets are available by simply looking at the publishing date in the feed, rather than having to download a file over and over and do some kind of diff comparison to see if anything has changed.
+
+iDigBio's requirements for a usable data publishing feed must include all of the following pieces of information for each dataset:
+
+1. guid for the dataset feed entry (feed url + unique item identifier is sufficient)
+2. link to the Darwin Core Archive dataset file which contains the actual occurrence records and any DwC extensions
+3. link to the EML file which contains metadata about the dataset contents and collection / provider
+4.  publication date for the most recent date of the dataset update
+
+Additional technical specifications are available in the iDigBio wiki:
+
+https://www.idigbio.org/wiki/index.php/CYWG_iDigBio_DwC-A_Pull_Ingestion
+
+GBIF IPT and Symbiota have RSS publishing built-in which makes them advantageous to museum collections when evaluating data publishing tools.
+
+
+Harvesting
+==========
+
+1. Scan all of the known Publisher RSS feeds for new or updated datasets by using the pubdate field in the RSS feed itself.
+2. If a currently-publisehd dataset is newer than the copy that iDigBio already has in storage, the newer dataset is downloaded and saved into iDigBio stroage.
+3. 
+
+
+
+Ingestion
+=========
+
+
+
+
+something about recordID
+
