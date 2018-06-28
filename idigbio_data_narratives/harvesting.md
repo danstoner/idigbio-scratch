@@ -54,8 +54,14 @@ iDigBio processes the harvested datasets roughly every two weeks....
 
 
 
+
+
+
 something about recordIDs
 
+occurrenceID is a 
+
+iDigBio has attempted to maintain a distinction between the occurrenceID in a record and the recordID itself.  This would allow multiple facts about the same occurrence to be presented in multiple datasets.  Unfortunately, Darwin Core itself does not contain a recordID concept and one of the more common data publishing software IPT does not have a recordID concept either.
 
 
 Once Ingestion is completed, the data are sitting in the iDigBio PostgreSQL server ready to be indexed. The iDigBio indexing process makes the data available in our public-facing search services and specimen portal... but that is a topic for another post.
