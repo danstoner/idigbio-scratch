@@ -1,3 +1,5 @@
+=DRAFT=
+
 iDigBio Data Harvesting and Ingestion
 =====================================
 
@@ -80,9 +82,17 @@ At the completion of the iDigBio Ingestion process we have JSON-structured repre
 
 
 
+=DRAFT=
+
+
 
 something about recordIDs
 
+A specimen Occurrence is a collecting event at a specific place and time.  Every occurrence needs to have a distinct globally unique identifier and persistent if these occurrences are to be aggregated for searching and research purposes.  The occurrenceID.
+
+iDigBio has attempted to maintain a distinction between the occurrenceID contained in a record and the recordID itself.  Unfortunately, Darwin Core itself does not contain a recordID concept and one of the more common data publishing software, GBIF IPT, does not have a recordID concept either.  This means that across much of the community there is no way to distinguish between the identifier of the digital record about an object and the identifier of the object itself. This also means it is not currently possible to merge two distinct sources of data about a single occurrence.  iDigBio currently tracks recordIDs when present (for example, Symbiota data publishing includes recordID with each record) and prevents duplicates of digital records from appearing in iDigBio.  iDigBio allows multiple instances of an occurrenceID into the aggregate.  iDigBio does not currently attempt to "merge" multiple instances of an occurrenceID together. In most cases, duplicated occurrenceIDs occur when the occurrenceID is not actually globally unique. iDigBio does contain some duplicate records when the same information is published from multiple publishers and the records do not have consistent identifiers between the datasets.
 
 
 Once Ingestion is completed, the data are sitting in the iDigBio PostgreSQL server ready to be indexed. The iDigBio indexing process makes the data available in our public-facing search services and specimen portal... but that is a topic for another post.
+
+=DRAFT=
