@@ -1,4 +1,4 @@
-=DRAFT=
+# = DRAFT =
 
 iDigBio Data Harvesting and Ingestion
 =====================================
@@ -96,7 +96,7 @@ The iDigBio Data Ingestion process:
 
 At the completion of the iDigBio Ingestion process we have JSON-structured represenations of each data record as well as the relationships between records (such as media that are associated to specimens) stored in a PostgreSQL database.
 
-=DRAFT=
+# = DRAFT =
 
 
 iDigBio has attempted to maintain a distinction between the occurrenceID contained in a record and the recordID itself.  Unfortunately, Darwin Core itself does not contain a recordID concept and one of the more common data publishing software, GBIF IPT, does not have a recordID concept either.  This means that across much of the community there is no way to distinguish between the identifier of the digital record about an object and the identifier of the object itself. iDigBio currently tracks recordIDs when present (for example, Symbiota data publishing includes recordID with each record) and prevents duplicates of digital records from Symbiota from appearing in iDigBio.  In most cases if there is a duplicated occurrenceID in iDigBio, it occurs when the occurrenceID is not actually globally unique. iDigBio does contain some duplicate records when the same information is published from multiple publishers and the records do not have consistent identifiers between the datasets.
@@ -106,4 +106,4 @@ Once Ingestion is completed, the data are sitting in the iDigBio PostgreSQL serv
 
 The iDigBio model of harvesting, ingestion, and indexing allows iDigBio to receive thousands of record updates every few weeks with very little hands-on work by iDigBio staff.  By removing most of the overhead of receving "updates" from existing data providers, iDigBio staff can continue to concentrate on new datasets yet to be mobilized.
 
-=DRAFT=
+# = DRAFT =
