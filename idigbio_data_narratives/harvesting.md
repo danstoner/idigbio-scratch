@@ -24,12 +24,12 @@ Every occurrence record needs to have a distinct and persistent globally unique 
 
 Any globally unique persistent identifier makes for an acceptable occurrenceID.  We recommended https://github.com/tdwg/guid-as "TDWG Globally Unique Identifiers (GUID) applicability statement" as a canonical reference.  All of the following are valid idenitifer types for occurrences:
 
-UUID - Universally Unique Identifier aka GUID
-LSID - Life Science Identifier
-HTTP URI - a subset of Uniform Resource Identifier (URI)
-DOI - Digital Object Identifier
-PURL - Permanent URL
-Handle - Handle System
+* UUID - Universally Unique Identifier aka GUID
+* LSID - Life Science Identifier
+* HTTP URI - a subset of Uniform Resource Identifier (URI)
+* DOI - Digital Object Identifier
+* PURL - Permanent URL
+* Handle - Handle System
 
 Each potential identifier choice has a set of tradeoffs associated with it. iDigBio recommends UUID v4 identifiers because they are locally mintable (no cost, no external service dependency, and no external organizational dependency). Despite rumors to the contrary, UUIDs are globally unique even when minted locally.  They are true opaque identifiers with all of the benefits thereof, and have no external pressure that discourages permanance (HTTP URIs are particularly susceptible to change). GBIF's publication "A Beginner’s Guide to Persistent Identifiers" https://www.gbif.org/document/80575/a-beginners-guide-to-persistent-identifiers is an excellent reference.
 
