@@ -1,3 +1,5 @@
+=DRAFT=
+
 iDigBio Data Harvesting and Ingestion
 =====================================
 
@@ -53,7 +55,7 @@ Ingestion
 iDigBio processes the harvested datasets roughly every two weeks....
 
 
-
+=DRAFT=
 
 
 
@@ -65,3 +67,5 @@ iDigBio has attempted to maintain a distinction between the occurrenceID in a re
 
 
 Once Ingestion is completed, the data are sitting in the iDigBio PostgreSQL server ready to be indexed. The iDigBio indexing process makes the data available in our public-facing search services and specimen portal... but that is a topic for another post.
+
+=DRAFT=
